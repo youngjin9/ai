@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KBO 한국프로야구 정보 대시보드</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Leaflet CSS & JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        body {
+            font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+        .nav-btn.active {
+            background-color: #2563eb;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+        }
+        #map {
+            height: 480px;
+            border-radius: 1rem;
+            z-index: 10;
+        }
+        .leaflet-popup-content-wrapper {
+            background-color: #1e293b;
+            color: #f8fafc;
+            border-radius: 0.75rem;
+            border: 1px solid #334155;
+        }
+        .leaflet-popup-tip {
+            background-color: #1e293b;
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased selection:bg-blue-600 selection:text-white">
+
+    <!-- Header -->
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-3xl">⚾</span>
+                <div>
+                    <h1 class="text-lg font-extrabold tracking-tight text-white flex items-center gap-2">
+                        KBO 리그 정보 대시보드
+                        <span class="text-xs font-semibold px-2 py-0.5 rounded-full bg-blue-500/20 text-blue-400 border border-blue-500/30">2026 LIVE</span>
+                    </h1>
+                    <p class="text-xs text-slate-400">한국프로야구 10개 구단 순위, 스코어보드, 전국 구장 맵 & 실시간 피드</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-3">
+                <select id="favTeamSelect" class="bg-slate-800 border border-slate-700 text-sm rounded-lg px-3 py-1.5 text-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    <!-- Teams filled dynamically -->
+                </select>
+                <a href="https://github.com/youngjin9/ai" target="_blank" class="text-slate-400 hover:text-white p-2 rounded-lg bg-slate-800/60 border border-slate-700">
+                    <i data-lucide="github" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav class="bg-slate-900 border-b border-slate-800 sticky top-16 z-40">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex space-x-2 py-2 overflow-x-auto">
+            <button onclick="switchTab('ranks')" id="btn-ranks" class="nav-btn active flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                <i data-lucide="bar-chart-3" class="w-4 h-4"></i> 정규리그 순위
+            </button>
+            <button onclick="switchTab('sched')" id="btn-sched" class="nav-btn flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                <i data-lucide="calendar" class="w-4 h-4"></i> 경기 일정/결과
+            </button>
+            <button onclick="switchTab('stats')" id="btn-stats" class="nav-btn flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                <i data-lucide="award" class="w-4 h-4"></i> 개인 성적 랭킹
+            </button>
+            <button onclick="switchTab('stadiums')" id="btn-stadiums" class="nav-btn flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                <i data-lucide="map-pin" class="w-4 h-4"></i> 전국 홈구장 투어
+            </button>
+            <button onclick="switchTab('news')" id="btn-news" class="nav-btn flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                <i data-lucide="newspaper" class="w-4 h-4"></i> 최신 뉴스
+            </button>
+            <button onclick="switchTab('teams')" id="btn-teams" class="nav-btn flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 transition">
+                <i data-lucide="shield" class="w-4 h-4"></i> 10개 구단 프로필
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-1 w-full">
+
+        <!-- 1. 정규리그 순위 탭 -->
+        <section id="tab-ranks" class="tab-pane space-y-6">
+            <!-- Top 3 Highlight Cards -->
+            <div id="top3Cards" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Injected via JS -->
+            </div>
+
+            <!-- Full Ranking Table -->
+            <div class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-xl">
+                <div class="p-4 border-b border-slate-800 flex justify-between items-center">
+                    <h2 class="text-base font-bold text-white flex items-center gap-2">
+                        <i data-lucide="table" class="w-5 h-5 text-blue-400"></i> KBO 정규리그 종합 순위표
+                    </h2>
+                    <span class="text-xs text-slate-400">총 144경기 기준</span>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-sm text-slate-300">
+                        <thead class="bg-slate-800/50 text-xs uppercase text-slate-400 border-b border-slate-800">
+                            <tr>
+                                <th class="px-4 py-3 text-center">순위</th>
+                                <th class="px-4 py-3">구단명</th>
+                                <th class="px-4 py-3 text-center">경기</th>
+                                <th class="px-4 py-3 text-center">승</th>
+                                <th class="px-4 py-3 text-center">무</th>
+                                <th class="px-4 py-3 text-center">패</th>
+                                <th class="px-4 py-3 text-center font-bold text-blue-400">승률</th>
+                                <th class="px-4 py-3 text-center">게임차</th>
+                                <th class="px-4 py-3 text-center">비고/연속</th>
+                                <th class="px-4 py-3 text-center">최근 10경기</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ranksTableBody" class="divide-y divide-slate-800">
+                            <!-- Injected via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Chart -->
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-xl">
+                <h3 class="text-base font-bold text-white mb-4 flex items-center gap-2">
+                    <i data-lucide="trending-up" class="w-5 h-5 text-emerald-400"></i> 구단별 다승 및 승률 비교
+                </h3>
+                <div class="h-80">
+                    <canvas id="winsChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. 경기 일정 & 스코어 탭 -->
+        <section id="tab-sched" class="tab-pane hidden space-y-6">
+            <div class="flex justify-between items-center">
+                <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                    <i data-lucide="clock" class="w-6 h-6 text-blue-400"></i> 경기 일정 및 스코어보드
+                </h2>
+                <span class="text-xs bg-slate-800 px-3 py-1 rounded-full border border-slate-700 text-slate-400">실시간 스코어 연동</span>
+            </div>
+            <div id="scheduleCards" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <!-- 3. 개인 성적 랭킹 탭 -->
+        <section id="tab-stats" class="tab-pane hidden space-y-6">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div class="flex space-x-2">
+                    <button onclick="setStatCategory('batter')" id="stat-batter-btn" class="px-4 py-2 rounded-lg bg-blue-600 text-white font-medium text-sm transition">
+                        ⚾ 타자 부문
+                    </button>
+                    <button onclick="setStatCategory('pitcher')" id="stat-pitcher-btn" class="px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium text-sm transition">
+                        🎯 투수 부문
+                    </button>
+                </div>
+                <div class="flex items-center gap-2">
+                    <label class="text-xs text-slate-400">세부 지표 선택:</label>
+                    <select id="statMetricSelect" onchange="renderIndividualStats()" class="bg-slate-800 border border-slate-700 text-sm rounded-lg px-3 py-1.5 text-slate-200">
+                        <!-- Options injected -->
+                    </select>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                <div class="lg:col-span-7 bg-slate-900 border border-slate-800 rounded-xl overflow-hidden shadow-xl">
+                    <div class="p-4 border-b border-slate-800">
+                        <h3 id="statTableTitle" class="text-base font-bold text-white">TOP 5 리더보드</h3>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-left text-sm text-slate-300">
+                            <thead class="bg-slate-800/50 text-xs uppercase text-slate-400 border-b border-slate-800" id="statsThead">
+                                <!-- Headers -->
+                            </thead>
+                            <tbody id="statsTbody" class="divide-y divide-slate-800">
+                                <!-- Body -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-xl flex flex-col justify-center">
+                    <h4 class="text-sm font-semibold text-slate-400 mb-2">지표 시각화</h4>
+                    <div class="h-64">
+                        <canvas id="statChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. 전국 홈구장 투어 탭 -->
+        <section id="tab-stadiums" class="tab-pane hidden space-y-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-xl">
+                <div class="mb-4">
+                    <h2 class="text-lg font-bold text-white flex items-center gap-2">
+                        <i data-lucide="map" class="w-5 h-5 text-emerald-400"></i> 전국 10개 구단 홈구장 맵
+                    </h2>
+                    <p class="text-xs text-slate-400 mt-1">지도의 마커를 클릭하면 구장 사진, 수용 인원 및 공식 웹사이트를 확인할 수 있습니다.</p>
+                </div>
+                <div id="map"></div>
+            </div>
+
+            <!-- Distance Calculator -->
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
+                <h3 class="text-base font-bold text-white flex items-center gap-2 mb-4">
+                    <i data-lucide="navigation" class="w-5 h-5 text-blue-400"></i> 구장 간 원정 이동 거리 계산기
+                </h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 mb-1">출발 구장 (구단)</label>
+                        <select id="distStart" onchange="calculateDistance()" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-sm text-slate-200"></select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-400 mb-1">도착 구장 (구단)</label>
+                        <select id="distEnd" onchange="calculateDistance()" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-sm text-slate-200"></select>
+                    </div>
+                </div>
+                <div id="distResult" class="p-4 rounded-xl bg-blue-950/40 border border-blue-800/40 text-blue-200 text-sm font-semibold flex items-center gap-3">
+                    <i data-lucide="info" class="w-5 h-5 text-blue-400 flex-shrink-0"></i>
+                    <span id="distResultText">구장을 선택하면 직선거리가 계산됩니다.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. 최신 뉴스 탭 -->
+        <section id="tab-news" class="tab-pane hidden space-y-4">
+            <div class="flex justify-between items-center mb-2">
+                <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                    <i data-lucide="rss" class="w-6 h-6 text-orange-400"></i> 실시간 KBO 헤드라인 뉴스 피드
+                </h2>
+                <span class="text-xs text-slate-400">구글 뉴스 RSS 실시간 갱신</span>
+            </div>
+            <div id="newsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <!-- Injected via JS -->
+            </div>
+        </section>
+
+        <!-- 6. 10개 구단 프로필 탭 -->
+        <section id="tab-teams" class="tab-pane hidden space-y-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 shadow-xl">
+                <div class="max-w-xs mb-6">
+                    <label class="block text-xs font-semibold text-slate-400 mb-2">구단 선택</label>
+                    <select id="profileTeamSelect" onchange="renderTeamProfile()" class="w-full bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-sm text-slate-200 font-semibold"></select>
+                </div>
+                <div id="teamProfileContainer">
+                    <!-- Injected via JS -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 bg-slate-900/60 py-6 text-center text-xs text-slate-500">
+        <p>⚾ 2026 KBO 한국프로야구 인터랙티브 웹 대시보드 | GitHub Pages Edition</p>
+        <p class="mt-1">Powered by youngjin9 • Data from KBO, Naver Sports & Google News</p>
+    </footer>
+
+    <!-- App Logic Script -->
+    <script>
+        let DATA = null;
+        let map = null;
+        let markers = [];
+        let winsChart = null;
+        let statChart = null;
+        let currentStatCategory = 'batter';
+
+        // Load data.json
+        async function init() {
+            try {
+                const res = await fetch('data.json');
+                DATA = await res.json();
+            } catch (e) {
+                console.error("Failed to load data.json", e);
+            }
+
+            setupFavTeamSelect();
+            renderRanksTab();
+            renderScheduleTab();
+            setupStatsTab();
+            renderNewsTab();
+            setupTeamsTab();
+            lucide.createIcons();
+        }
+
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-pane').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
+
+            document.getElementById(`tab-${tabId}`).classList.remove('hidden');
+            document.getElementById(`btn-${tabId}`).classList.add('active');
+
+            if (tabId === 'stadiums') {
+                setTimeout(initMap, 100);
+            }
+            lucide.createIcons();
+        }
+
+        // Setup Favorite Team
+        function setupFavTeamSelect() {
+            const sel = document.getElementById('favTeamSelect');
+            sel.innerHTML = '';
+            for (let team in DATA.teams) {
+                const opt = document.createElement('option');
+                opt.value = team;
+                opt.textContent = `${DATA.teams[team].full_name}`;
+                sel.appendChild(opt);
+            }
+            sel.addEventListener('change', () => {
+                if (map) {
+                    highlightTeamMarker(sel.value);
+                }
+            });
+        }
+
+        // 1. Ranks Tab
+        function renderRanksTab() {
+            const ranks = DATA.ranks;
+            // Top 3
+            const top3 = ranks.slice(0, 3);
+            const badges = ['🥇 1위', '🥈 2위', '🥉 3위'];
+            const top3Html = top3.map((r, i) => {
+                const meta = DATA.teams[r.팀명] || {};
+                return `
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-lg relative overflow-hidden">
+                    <div class="absolute -right-4 -bottom-4 w-24 h-24 opacity-10" style="background: ${meta.color}; border-radius: 50%;"></div>
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-xs font-bold px-2 py-1 rounded bg-slate-800 text-blue-400 border border-slate-700">${badges[i]}</span>
+                        <img src="${meta.logo_url}" class="w-9 h-9 object-contain" alt="${r.팀명}">
+                    </div>
+                    <h3 class="text-lg font-bold text-white">${meta.full_name || r.팀명}</h3>
+                    <p class="text-sm text-slate-400 mt-1">
+                        <b class="text-white text-base">${r.승}승</b> ${r.무}무 ${r.패}패 
+                        <span class="text-blue-400 font-semibold ml-2">승률 ${typeof r.승률 === 'number' ? r.승률.toFixed(3) : r.승률}</span>
+                    </p>
+                </div>
+                `;
+            }).join('');
+            document.getElementById('top3Cards').innerHTML = top3Html;
+
+            // Table
+            const tbody = document.getElementById('ranksTableBody');
+            tbody.innerHTML = ranks.map(r => {
+                const meta = DATA.teams[r.팀명] || {};
+                return `
+                <tr class="hover:bg-slate-800/40 transition">
+                    <td class="px-4 py-3 text-center font-bold text-white">${r.순위}</td>
+                    <td class="px-4 py-3 font-semibold text-white flex items-center gap-2">
+                        <img src="${meta.logo_url}" class="w-6 h-6 object-contain inline" alt="${r.팀명}">
+                        <span>${meta.full_name || r.팀명}</span>
+                    </td>
+                    <td class="px-4 py-3 text-center">${r.경기}</td>
+                    <td class="px-4 py-3 text-center font-bold text-emerald-400">${r.승}</td>
+                    <td class="px-4 py-3 text-center text-slate-400">${r.무}</td>
+                    <td class="px-4 py-3 text-center text-rose-400">${r.패}</td>
+                    <td class="px-4 py-3 text-center font-bold text-blue-400">${typeof r.승률 === 'number' ? r.승률.toFixed(3) : r.승률}</td>
+                    <td class="px-4 py-3 text-center text-slate-300 font-medium">${r.게임차}</td>
+                    <td class="px-4 py-3 text-center text-xs text-slate-400">${r.연속 || '-'}</td>
+                    <td class="px-4 py-3 text-center text-xs text-slate-400">${r.최근10경기 || '-'}</td>
+                </tr>
+                `;
+            }).join('');
+
+            // Wins Chart
+            const ctx = document.getElementById('winsChart').getContext('2d');
+            const labels = ranks.map(r => r.팀명);
+            const wins = ranks.map(r => r.승);
+            const colors = ranks.map(r => DATA.teams[r.팀명]?.color || '#3b82f6');
+
+            if (winsChart) winsChart.destroy();
+            winsChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: '승리 수',
+                        data: wins,
+                        backgroundColor: colors,
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: '#1e293b' },
+                            ticks: { color: '#94a3b8' }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: '#94a3b8' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // 2. Schedule Tab
+        function renderScheduleTab() {
+            const sched = DATA.sched;
+            const container = document.getElementById('scheduleCards');
+            if (!sched || sched.length === 0) {
+                container.innerHTML = '<div class="col-span-2 text-center text-slate-400 py-10">예정된 일정이 없습니다.</div>';
+                return;
+            }
+            container.innerHTML = sched.map(s => {
+                const awayMeta = DATA.teams[s.원정팀] || {};
+                const homeMeta = DATA.teams[s.홈팀] || {};
+                return `
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-lg hover:border-slate-700 transition">
+                    <div class="flex justify-between items-center text-xs text-slate-400 pb-3 mb-3 border-b border-slate-800">
+                        <span class="flex items-center gap-1 font-semibold text-blue-400">
+                            <i data-lucide="calendar" class="w-3.5 h-3.5"></i> ${s.일시}
+                        </span>
+                        <span>🏟️ ${s.구장} | 중계: ${s.중계 || '-'}</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <!-- Away Team -->
+                        <div class="flex-1 text-center">
+                            <img src="${awayMeta.logo_url || ''}" class="w-12 h-12 mx-auto object-contain mb-1" alt="${s.원정팀}">
+                            <div class="font-bold text-white text-base">${s.원정팀}</div>
+                            <div class="text-xs text-slate-400 truncate max-w-[120px] mx-auto">${s['원정투수/비고'] || ''}</div>
+                        </div>
+                        <!-- Score -->
+                        <div class="px-4 text-center">
+                            <div class="text-2xl font-black text-white tracking-wider">
+                                ${s.원정점수} : ${s.홈팀점수}
+                            </div>
+                            <span class="text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 uppercase">FINAL</span>
+                        </div>
+                        <!-- Home Team -->
+                        <div class="flex-1 text-center">
+                            <img src="${homeMeta.logo_url || ''}" class="w-12 h-12 mx-auto object-contain mb-1" alt="${s.홈팀}">
+                            <div class="font-bold text-white text-base">${s.홈팀}</div>
+                            <div class="text-xs text-slate-400 truncate max-w-[120px] mx-auto">${s['홈투수/비고'] || ''}</div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            }).join('');
+        }
+
+        // 3. Stats Tab
+        function setupStatsTab() {
+            setStatCategory('batter');
+        }
+
+        function setStatCategory(cat) {
+            currentStatCategory = cat;
+            const bBtn = document.getElementById('stat-batter-btn');
+            const pBtn = document.getElementById('stat-pitcher-btn');
+            const select = document.getElementById('statMetricSelect');
+
+            if (cat === 'batter') {
+                bBtn.className = 'px-4 py-2 rounded-lg bg-blue-600 text-white font-medium text-sm transition';
+                pBtn.className = 'px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium text-sm transition';
+                select.innerHTML = Object.keys(DATA.batters).map(k => `<option value="${k}">${k}</option>`).join('');
+            } else {
+                pBtn.className = 'px-4 py-2 rounded-lg bg-blue-600 text-white font-medium text-sm transition';
+                bBtn.className = 'px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium text-sm transition';
+                select.innerHTML = Object.keys(DATA.pitchers).map(k => `<option value="${k}">${k}</option>`).join('');
+            }
+            renderIndividualStats();
+        }
+
+        function renderIndividualStats() {
+            const metric = document.getElementById('statMetricSelect').value;
+            const items = currentStatCategory === 'batter' ? DATA.batters[metric] : DATA.pitchers[metric];
+            document.getElementById('statTableTitle').textContent = `${currentStatCategory === 'batter' ? '타자' : '투수'} ${metric} 부문 TOP 5`;
+
+            if (!items || items.length === 0) return;
+
+            // Generate Columns
+            const keys = Object.keys(items[0]);
+            const thead = document.getElementById('statsThead');
+            thead.innerHTML = `<tr>${keys.map(k => `<th class="px-4 py-3 ${k === metric ? 'text-blue-400 font-bold' : ''}">${k}</th>`).join('')}</tr>`;
+
+            const tbody = document.getElementById('statsTbody');
+            tbody.innerHTML = items.map(item => {
+                return `
+                <tr class="hover:bg-slate-800/40 transition">
+                    ${keys.map(k => `<td class="px-4 py-3 ${k === metric ? 'text-blue-400 font-bold text-base' : ''}">${item[k]}</td>`).join('')}
+                </tr>
+                `;
+            }).join('');
+
+            // Stat Chart
+            const ctx = document.getElementById('statChart').getContext('2d');
+            const labels = items.map(i => i.선수명);
+            const values = items.map(i => i[metric]);
+            const colors = items.map(i => DATA.teams[i.팀명]?.color || '#3b82f6');
+
+            if (statChart) statChart.destroy();
+            statChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: metric,
+                        data: values,
+                        backgroundColor: colors,
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        y: {
+                            beginAtZero: metric !== '타율' && metric !== '평균자책점',
+                            grid: { color: '#1e293b' },
+                            ticks: { color: '#94a3b8' }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { color: '#94a3b8' }
+                        }
+                    }
+                }
+            });
+        }
+
+        // 4. Map & Stadiums
+        function initMap() {
+            if (map) {
+                map.invalidateSize();
+                return;
+            }
+            map = L.map('map').setView([36.3, 127.8], 7);
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+                subdomains: 'abcd',
+                maxZoom: 19
+            }).addTo(map);
+
+            const distStart = document.getElementById('distStart');
+            const distEnd = document.getElementById('distEnd');
+            distStart.innerHTML = '';
+            distEnd.innerHTML = '';
+
+            let idx = 0;
+            for (let teamKey in DATA.teams) {
+                const t = DATA.teams[teamKey];
+                const opt1 = document.createElement('option');
+                opt1.value = teamKey;
+                opt1.textContent = `${t.full_name} (${t.stadium_name})`;
+                distStart.appendChild(opt1);
+
+                const opt2 = document.createElement('option');
+                opt2.value = teamKey;
+                opt2.textContent = `${t.full_name} (${t.stadium_name})`;
+                distEnd.appendChild(opt2);
+
+                const popupHtml = `
+                <div style="font-family: inherit;">
+                    <div style="background-color: ${t.color}; color: white; padding: 6px 10px; border-radius: 6px; font-weight: bold; text-align: center;">
+                        ${t.full_name}
+                    </div>
+                    <div style="margin-top: 8px; font-size: 13px; color: #cbd5e1;">
+                        <p style="margin: 2px 0;"><b>구장:</b> ${t.stadium_name}</p>
+                        <p style="margin: 2px 0;"><b>수용인원:</b> ${t.stadium_capacity}</p>
+                        <p style="margin: 2px 0; color: #94a3b8; font-size: 11px;">${t.address}</p>
+                        <a href="${t.website}" target="_blank" style="display: inline-block; margin-top: 6px; color: #38bdf8; text-decoration: none; font-weight: 600;">공식 홈페이지 바로가기 →</a>
+                    </div>
+                </div>
+                `;
+
+                const marker = L.marker([t.lat, t.lon]).addTo(map).bindPopup(popupHtml);
+                markers.push({ team: teamKey, marker: marker });
+                idx++;
+            }
+            if (distEnd.options.length > 1) {
+                distEnd.selectedIndex = 1;
+            }
+            calculateDistance();
+        }
+
+        function highlightTeamMarker(teamKey) {
+            const item = markers.find(m => m.team === teamKey);
+            if (item && map) {
+                map.flyTo(item.marker.getLatLng(), 11);
+                item.marker.openPopup();
+            }
+        }
+
+        function calculateDistance() {
+            const startKey = document.getElementById('distStart').value;
+            const endKey = document.getElementById('distEnd').value;
+            if (!startKey || !endKey || !DATA.teams[startKey] || !DATA.teams[endKey]) return;
+
+            const t1 = DATA.teams[startKey];
+            const t2 = DATA.teams[endKey];
+
+            // Haversine formula
+            const R = 6371; // km
+            const dLat = (t2.lat - t1.lat) * Math.PI / 180;
+            const dLon = (t2.lon - t1.lon) * Math.PI / 180;
+            const a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                      Math.cos(t1.lat * Math.PI / 180) * Math.cos(t2.lat * Math.PI / 180) *
+                      Math.sin(dLon/2) * Math.sin(dLon/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            const d = (R * c).toFixed(1);
+
+            document.getElementById('distResultText').innerHTML = `
+                📍 <b>${t1.stadium_name}</b>(${t1.short_name}) 부터 <b>${t2.stadium_name}</b>(${t2.short_name}) 까지의 직선거리는 약 <span class="text-white text-base font-extrabold underline">${d} km</span> 입니다.
+            `;
+        }
+
+        // 5. News Tab
+        function renderNewsTab() {
+            const news = DATA.news || [];
+            const container = document.getElementById('newsContainer');
+            container.innerHTML = news.map(item => {
+                return `
+                <a href="${item.link}" target="_blank" class="block bg-slate-900 border border-slate-800 rounded-xl p-5 shadow-lg hover:border-blue-500/50 hover:bg-slate-800/60 transition group">
+                    <h3 class="text-sm font-semibold text-white group-hover:text-blue-400 line-clamp-2 transition leading-snug">
+                        ${item.title}
+                    </h3>
+                    <div class="mt-3 flex items-center justify-between text-xs text-slate-400">
+                        <span class="flex items-center gap-1"><i data-lucide="tag" class="w-3 h-3 text-slate-500"></i> ${item.source}</span>
+                        <span>${item.pubDate}</span>
+                    </div>
+                </a>
+                `;
+            }).join('');
+        }
+
+        // 6. Teams Tab
+        function setupTeamsTab() {
+            const sel = document.getElementById('profileTeamSelect');
+            sel.innerHTML = '';
+            for (let k in DATA.teams) {
+                const opt = document.createElement('option');
+                opt.value = k;
+                opt.textContent = DATA.teams[k].full_name;
+                sel.appendChild(opt);
+            }
+            renderTeamProfile();
+        }
+
+        function renderTeamProfile() {
+            const k = document.getElementById('profileTeamSelect').value;
+            const t = DATA.teams[k];
+            if (!t) return;
+
+            document.getElementById('teamProfileContainer').innerHTML = `
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                <div class="md:col-span-4 text-center bg-slate-800/40 p-6 rounded-2xl border border-slate-800">
+                    <img src="${t.logo_url}" class="w-36 h-36 object-contain mx-auto mb-4" alt="${t.full_name}">
+                    <h3 class="text-xl font-bold text-white">${t.full_name}</h3>
+                    <span class="text-xs px-3 py-1 rounded-full text-slate-300 bg-slate-800 border border-slate-700 mt-2 inline-block">
+                        창단 ${t.founded}년 • 한국시리즈 우승 ${t.championships}회
+                    </span>
+                    <a href="${t.website}" target="_blank" class="mt-6 block w-full py-2.5 px-4 rounded-xl font-bold text-sm text-center text-white shadow-lg transition" style="background-color: ${t.color}">
+                        구단 공식 홈페이지 방문 🌐
+                    </a>
+                </div>
+                <div class="md:col-span-8 space-y-4">
+                    <p class="text-slate-300 text-sm leading-relaxed bg-slate-800/20 p-4 rounded-xl border border-slate-800/60">
+                        ${t.description}
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 text-sm">
+                        <div class="bg-slate-800/40 p-4 rounded-xl border border-slate-800">
+                            <span class="text-xs text-slate-400 block mb-1">연고지</span>
+                            <span class="font-bold text-white">${t.city}</span>
+                        </div>
+                        <div class="bg-slate-800/40 p-4 rounded-xl border border-slate-800">
+                            <span class="text-xs text-slate-400 block mb-1">홈구장</span>
+                            <span class="font-bold text-white">${t.stadium_name}</span>
+                        </div>
+                        <div class="bg-slate-800/40 p-4 rounded-xl border border-slate-800">
+                            <span class="text-xs text-slate-400 block mb-1">수용 인원</span>
+                            <span class="font-bold text-white">${t.stadium_capacity}</span>
+                        </div>
+                        <div class="bg-slate-800/40 p-4 rounded-xl border border-slate-800">
+                            <span class="text-xs text-slate-400 block mb-1">구장 주소</span>
+                            <span class="font-bold text-white text-xs">${t.address}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            `;
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
