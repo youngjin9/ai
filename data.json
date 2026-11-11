@@ -184,180 +184,180 @@
   "ranks": [
     {
       "순위": 1,
-      "팀명": "삼성",
-      "경기": 144,
-      "승": 83,
-      "무": 3,
-      "패": 58,
-      "승률": 0.589,
-      "게임차": "0.0",
-      "연속": "4패",
-      "최근10경기": "4승-6패-0무"
-    },
-    {
-      "순위": 2,
-      "팀명": "KT",
-      "경기": 144,
-      "승": 90,
-      "무": 5,
-      "패": 49,
-      "승률": 0.647,
-      "게임차": "-8.0",
-      "연속": "10승",
-      "최근10경기": "9승-0패-1무"
-    },
-    {
-      "순위": 3,
       "팀명": "KIA",
       "경기": 144,
-      "승": 79,
+      "승": 87,
       "무": 2,
-      "패": 63,
-      "승률": 0.556,
-      "게임차": "4.5",
-      "연속": "1승",
+      "패": 55,
+      "승률": 0.613,
+      "게임차": "0.0",
+      "연속": "우승",
       "최근10경기": "7승-3패-0무"
     },
     {
-      "순위": 4,
-      "팀명": "LG",
+      "순위": 2,
+      "팀명": "삼성",
       "경기": 144,
       "승": 78,
-      "무": 1,
-      "패": 65,
-      "승률": 0.545,
-      "게임차": "6.0",
-      "연속": "1패",
-      "최근10경기": "3승-7패-0무"
+      "무": 2,
+      "패": 64,
+      "승률": 0.549,
+      "게임차": "9.0",
+      "연속": "준우승",
+      "최근10경기": "5승-5패-0무"
+    },
+    {
+      "순위": 3,
+      "팀명": "LG",
+      "경기": 144,
+      "승": 76,
+      "무": 2,
+      "패": 66,
+      "승률": 0.535,
+      "게임차": "11.0",
+      "연속": "플레이오프",
+      "최근10경기": "6승-4패-0무"
+    },
+    {
+      "순위": 4,
+      "팀명": "두산",
+      "경기": 144,
+      "승": 74,
+      "무": 2,
+      "패": 68,
+      "승률": 0.521,
+      "게임차": "13.0",
+      "연속": "와일드카드",
+      "최근10경기": "4승-6패-0무"
     },
     {
       "순위": 5,
-      "팀명": "두산",
+      "팀명": "KT",
       "경기": 144,
-      "승": 73,
-      "무": 5,
-      "패": 66,
-      "승률": 0.525,
-      "게임차": "9.0",
-      "연속": "2패",
+      "승": 72,
+      "무": 2,
+      "패": 70,
+      "승률": 0.507,
+      "게임차": "15.0",
+      "연속": "와일드카드",
       "최근10경기": "6승-4패-0무"
     },
     {
       "순위": 6,
       "팀명": "SSG",
       "경기": 144,
-      "승": 65,
-      "무": 5,
-      "패": 74,
-      "승률": 0.468,
-      "게임차": "17.0",
-      "연속": "1패",
-      "최근10경기": "7승-3패-0무"
+      "승": 72,
+      "무": 2,
+      "패": 70,
+      "승률": 0.507,
+      "게임차": "15.0",
+      "연속": "5위결정전",
+      "최근10경기": "6승-4패-0무"
     },
     {
       "순위": 7,
       "팀명": "롯데",
       "경기": 144,
-      "승": 64,
-      "무": 3,
-      "패": 77,
-      "승률": 0.454,
-      "게임차": "19.0",
-      "연속": "2승",
-      "최근10경기": "4승-5패-1무"
+      "승": 66,
+      "무": 4,
+      "패": 74,
+      "승률": 0.471,
+      "게임차": "20.0",
+      "연속": "정규시즌",
+      "최근10경기": "5승-5패-0무"
     },
     {
       "순위": 8,
-      "팀명": "NC",
+      "팀명": "한화",
       "경기": 144,
-      "승": 64,
+      "승": 66,
       "무": 2,
-      "패": 78,
-      "승률": 0.451,
-      "게임차": "19.5",
-      "연속": "1승",
-      "최근10경기": "2승-8패-0무"
+      "패": 76,
+      "승률": 0.465,
+      "게임차": "21.0",
+      "연속": "정규시즌",
+      "최근10경기": "3승-7패-0무"
     },
     {
       "순위": 9,
-      "팀명": "한화",
+      "팀명": "NC",
       "경기": 144,
-      "승": 57,
-      "무": 4,
-      "패": 83,
-      "승률": 0.407,
-      "게임차": "25.5",
-      "연속": "2패",
-      "최근10경기": "3승-7패-0무"
+      "승": 61,
+      "무": 2,
+      "패": 81,
+      "승률": 0.43,
+      "게임차": "26.0",
+      "연속": "정규시즌",
+      "최근10경기": "4승-6패-0무"
     },
     {
       "순위": 10,
       "팀명": "키움",
       "경기": 144,
-      "승": 50,
-      "무": 4,
-      "패": 90,
-      "승률": 0.357,
-      "게임차": "32.5",
-      "연속": "1승",
-      "최근10경기": "5승-5패-0무"
+      "승": 58,
+      "무": 0,
+      "패": 86,
+      "승률": 0.403,
+      "게임차": "30.0",
+      "연속": "정규시즌",
+      "최근10경기": "3승-7패-0무"
     }
   ],
   "sched": [
     {
-      "일시": "11.03.(화)18:30",
+      "일시": "한국시리즈 1차전",
       "원정팀": "삼성",
-      "원정점수": 7,
-      "원정투수/비고": "최원태패",
-      "홈팀점수": 8,
-      "홈팀": "KT",
-      "홈투수/비고": "승대니엘",
-      "구장": "수원",
-      "중계": "SBS"
-    },
-    {
-      "일시": "11.04.(수)18:30",
-      "원정팀": "삼성",
-      "원정점수": 3,
-      "원정투수/비고": "김태훈승",
-      "홈팀점수": 2,
-      "홈팀": "KT",
-      "홈투수/비고": "패오원석",
-      "구장": "수원",
+      "원정점수": 1,
+      "원정투수/비고": "원태인",
+      "홈팀점수": 5,
+      "홈팀": "KIA",
+      "홈투수/비고": "정해영(승)",
+      "구장": "광주",
       "중계": "MBC"
     },
     {
-      "일시": "11.06.(금)18:30",
-      "원정팀": "KT",
-      "원정점수": 1,
-      "원정투수/비고": "소형준패",
-      "홈팀점수": 5,
-      "홈팀": "삼성",
-      "홈투수/비고": "승후라도",
-      "구장": "대구",
+      "일시": "한국시리즈 2차전",
+      "원정팀": "삼성",
+      "원정점수": 3,
+      "원정투수/비고": "황동재(패)",
+      "홈팀점수": 8,
+      "홈팀": "KIA",
+      "홈투수/비고": "양현종(승)",
+      "구장": "광주",
       "중계": "KBS2"
     },
     {
-      "일시": "11.07.(토)14:00",
-      "원정팀": "KT",
-      "원정점수": 5,
-      "원정투수/비고": "로건패",
-      "홈팀점수": 10,
+      "일시": "한국시리즈 3차전",
+      "원정팀": "KIA",
+      "원정점수": 2,
+      "원정투수/비고": "라우어(패)",
+      "홈팀점수": 4,
       "홈팀": "삼성",
-      "홈투수/비고": "승이재희",
+      "홈투수/비고": "레예스(승)",
       "구장": "대구",
       "중계": "SBS"
     },
     {
-      "일시": "11.08.(일)14:00",
-      "원정팀": "KT",
-      "원정점수": 1,
-      "원정투수/비고": "대니엘패",
-      "홈팀점수": 12,
+      "일시": "한국시리즈 4차전",
+      "원정팀": "KIA",
+      "원정점수": 9,
+      "원정투수/비고": "네일(승)",
+      "홈팀점수": 2,
       "홈팀": "삼성",
-      "홈투수/비고": "승원태인",
+      "홈투수/비고": "원태인(패)",
       "구장": "대구",
       "중계": "MBC"
+    },
+    {
+      "일시": "한국시리즈 5차전",
+      "원정팀": "삼성",
+      "원정점수": 5,
+      "원정투수/비고": "이상민",
+      "홈팀점수": 7,
+      "홈팀": "KIA",
+      "홈투수/비고": "박찬호/정해영(승)",
+      "구장": "광주",
+      "중계": "KBS2"
     }
   ],
   "news": [
@@ -374,12 +374,6 @@
       "pubDate": "Mon, 09 Nov 2026"
     },
     {
-      "title": "KBO 프로야구, 정규시즌 종료…최종 팀 순위?",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE82STVjWlRZNU9LMUhDeWpWcHdhaXlIRTVmM3dSUHFOVEZ5R3NIY1didURJN1A5U0pjQWVRSFNjMklxWmdjUEZJWDlnUU5FZXJQMF9QbHZaMEJoWjZTY2JGT0F0ZHppdFRBVHc3NU43OVY4UQ?oc=5",
-      "source": "톱스타뉴스",
-      "pubDate": "Mon, 12 Oct 2026"
-    },
-    {
       "title": "KBO 홈런왕, 슈퍼스타 김도영이 APBC 정벌을 위해 나선다 \"내 스윙을 하는데 초점 맞춘다\"",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVSUJUYXFscjFYM3RUV3F6WUNzcHhtUnRuVlVUUFJFS2thWmVzX3gySlA1U0ZYaGhJYlkwSjZtZjhobjkxOE5LZExVdHdTeUZFTFRTOERtcGp5UDczZmlpaXRsTjBTUHRlQVRBWm8wNi01b1diUGhJak5Ecmlqdw?oc=5",
       "source": "스포츠조선",
@@ -392,16 +386,22 @@
       "pubDate": "Sat, 17 Oct 2026"
     },
     {
+      "title": "KBO 프로야구, 정규시즌 종료…최종 팀 순위?",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE82STVjWlRZNU9LMUhDeWpWcHdhaXlIRTVmM3dSUHFOVEZ5R3NIY1didURJN1A5U0pjQWVRSFNjMklxWmdjUEZJWDlnUU5FZXJQMF9QbHZaMEJoWjZTY2JGT0F0ZHppdFRBVHc3NU43OVY4UQ?oc=5",
+      "source": "톱스타뉴스",
+      "pubDate": "Mon, 12 Oct 2026"
+    },
+    {
       "title": "KBO, 프로야구 한화 내야수 노시환 MLB에 포스팅 요청",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15RF93M25ybmgwcm9xQmJFNmRxS0dKbjU4NUZpTmNyWHd2X3k3TVlwN3JzTlpCbE9TMHVSbGxDSVVGaS1ucjAwVVBSNjY4dzV4RGY2UThhazg1RUHSAWBBVV95cUxQeEZDRjlHMzF2dGRxV0ZzU29lYWdEVkVWa0trdzNocV9JTmJCelRYTE03SF81bmNlZ29VcDJ4aFRvdWtxSTNBQ1dQRWQyeUJ1cWpGU2x5Wkw0bHF2MElJYy0?oc=5",
       "source": "연합뉴스",
       "pubDate": "Sat, 31 Oct 2026"
     },
     {
-      "title": "KBO 프로야구, 5일 경기 결과→현재 팀 순위?",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE00ZzVZQjY5Sm9Ma1FtTEhUN0o0Rlh5Z3FoM0tILU5SZldONzhMSjBodk5CQXdnTDlDVHRRNmdQOXJpUlZuQzk5X3p2bG9pVXFodkdTcmxqeE9fV0lFYUZZTTEtVnBKN2I0eE5uZmR6SW5qQQ?oc=5",
+      "title": "KBO 프로야구, 11일 경기 결과→현재 팀 순위?",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE82Z2FORkRwZzBFVE5objgwc21mOGdUWjdOaEh2aktHZzBGTnZONW5fSzYtM1kwa1JIUUtWWi1Pck1yNWtXdGg0dDdKNUhFY3RjNl9CZzZYaGtVVDF0Z0F4bVRnYm51NkNDMnZwMnhXeVdoZw?oc=5",
       "source": "톱스타뉴스",
-      "pubDate": "Tue, 06 Oct 2026"
+      "pubDate": "Mon, 12 Oct 2026"
     },
     {
       "title": "[프로야구] KBO, 2026 정규시즌 2차 잔여일정 확정…다음달 12일 시즌 종료",
@@ -410,28 +410,28 @@
       "pubDate": "Wed, 30 Sep 2026"
     },
     {
-      "title": "KBO 프로야구, 12일 경기 결과→현재 팀 순위?",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqSzgxZzlZZVUteEtSbnZ5MnRIUEZFT3JRQTJMQkhuaFVkSkp4WkFjbkd0cVIxS2xCd29aVXpXZm5JbFoyLTR1QW8xdXhjOXlSNG4wVXRQOHFfRndGSW9kUWtvRjZ0czI2NUZCWV9lM3NIUQ?oc=5",
+      "title": "KBO 프로야구, 5일 경기 결과→현재 팀 순위?",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE00ZzVZQjY5Sm9Ma1FtTEhUN0o0Rlh5Z3FoM0tILU5SZldONzhMSjBodk5CQXdnTDlDVHRRNmdQOXJpUlZuQzk5X3p2bG9pVXFodkdTcmxqeE9fV0lFYUZZTTEtVnBKN2I0eE5uZmR6SW5qQQ?oc=5",
       "source": "톱스타뉴스",
-      "pubDate": "Thu, 13 Aug 2026"
-    },
-    {
-      "title": "KBO 프로야구, 26일 경기 결과→현재 팀 순위?",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uUkdrY3JuRDB6SFU3MTlJbkUwbVB3T0hGVW5RQXZ3TjJ3a3M2OFpJRTZ6SHNHMnpTUzJiOTE0VWRBTFBHWWY1R1d1bkpOekRUY1loUTY0SzFpNnhNc1RtWUhzVDJ5X25CRnJfbGt4NDFvdw?oc=5",
-      "source": "톱스타뉴스",
-      "pubDate": "Thu, 27 Aug 2026"
-    },
-    {
-      "title": "KBO 프로야구, 20일 경기 결과→현재 팀 순위?",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VbE5ZUmU3eEJUbV9MeGRhQjRIMlNndzlRSy1FNFV6NEtPY3dGeWEwMG9HRkNhakFKY1h6V19JMEtPRWNEWDZ6bkFYcHlEOV9odmFOVEtWaUE1R0c1TEhCaF90MUJscmdWdlc3T1Q2ZzM1QQ?oc=5",
-      "source": "톱스타뉴스",
-      "pubDate": "Fri, 21 Aug 2026"
+      "pubDate": "Tue, 06 Oct 2026"
     },
     {
       "title": "KBO 프로야구, 30일 경기 결과→현재 팀 순위?",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE42c0FmSklIbzBpZVBzSVFGMm5NOThNUl9DaFhZT2hoeVA4eEtFMGFwcFlDb0prTGVjOHV1NEhvS1Zsa1lBWjBwQ0hwc25TNnJGVlloa09xZVVTRE5CRldGRUQwQ2dzRnlzUklYSUhwbjlsZw?oc=5",
       "source": "톱스타뉴스",
       "pubDate": "Wed, 30 Sep 2026"
+    },
+    {
+      "title": "KBO 프로야구, 27일 경기 중계 일정→선발 투수?",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBOHZkdURhR3VGV2VLM2VEbmFpc2UzTzJwc1NDam13S0dkV25RbGNuNlZOUzNFQ3pyQzBmZS04VjhuWHd0ZTA4RGpmb2k5MU9zVldyMF9rNWMtd3d1NW1wQkhacWJ2dHhfbFp0WklCcGgzdw?oc=5",
+      "source": "톱스타뉴스",
+      "pubDate": "Sun, 27 Sep 2026"
+    },
+    {
+      "title": "KBO 프로야구, 6일 경기 결과→현재 팀 순위?",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE14OHdxeGdUc0Z5YndpczZNd0NZSzh4MkZUaUVCaTczLVcwNUFqRjdwRVNVWTUwa1ZPUDZBRkJpSDFyV00zbUlmZlFyTWJick1UTm52eDRGYW9BMWY3QTc4UzJlRE9GX0Nna3psSE9WbzNWUQ?oc=5",
+      "source": "톱스타뉴스",
+      "pubDate": "Wed, 07 Oct 2026"
     }
   ],
   "batters": {
