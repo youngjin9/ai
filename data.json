@@ -184,183 +184,189 @@
   "ranks": [
     {
       "순위": 1,
-      "팀명": "KIA",
-      "경기": 144,
-      "승": 87,
-      "무": 2,
-      "패": 55,
-      "승률": 0.613,
-      "게임차": "0.0",
-      "연속": "우승",
-      "최근10경기": "7승-3패-0무"
-    },
-    {
-      "순위": 2,
       "팀명": "삼성",
       "경기": 144,
-      "승": 78,
-      "무": 2,
-      "패": 64,
-      "승률": 0.549,
-      "게임차": "9.0",
-      "연속": "준우승",
-      "최근10경기": "5승-5패-0무"
-    },
-    {
-      "순위": 3,
-      "팀명": "LG",
-      "경기": 144,
-      "승": 76,
-      "무": 2,
-      "패": 66,
-      "승률": 0.535,
-      "게임차": "11.0",
-      "연속": "플레이오프",
-      "최근10경기": "6승-4패-0무"
-    },
-    {
-      "순위": 4,
-      "팀명": "두산",
-      "경기": 144,
-      "승": 74,
-      "무": 2,
-      "패": 68,
-      "승률": 0.521,
-      "게임차": "13.0",
-      "연속": "와일드카드",
+      "승": 83,
+      "무": 3,
+      "패": 58,
+      "승률": 0.589,
+      "게임차": "0.0",
+      "연속": "4패",
       "최근10경기": "4승-6패-0무"
     },
     {
-      "순위": 5,
+      "순위": 2,
       "팀명": "KT",
       "경기": 144,
-      "승": 72,
+      "승": 90,
+      "무": 5,
+      "패": 49,
+      "승률": 0.647,
+      "게임차": "-8.0",
+      "연속": "10승",
+      "최근10경기": "9승-0패-1무"
+    },
+    {
+      "순위": 3,
+      "팀명": "KIA",
+      "경기": 144,
+      "승": 79,
       "무": 2,
-      "패": 70,
-      "승률": 0.507,
-      "게임차": "15.0",
-      "연속": "와일드카드",
+      "패": 63,
+      "승률": 0.556,
+      "게임차": "4.5",
+      "연속": "1승",
+      "최근10경기": "7승-3패-0무"
+    },
+    {
+      "순위": 4,
+      "팀명": "LG",
+      "경기": 144,
+      "승": 78,
+      "무": 1,
+      "패": 65,
+      "승률": 0.545,
+      "게임차": "6.0",
+      "연속": "1패",
+      "최근10경기": "3승-7패-0무"
+    },
+    {
+      "순위": 5,
+      "팀명": "두산",
+      "경기": 144,
+      "승": 73,
+      "무": 5,
+      "패": 66,
+      "승률": 0.525,
+      "게임차": "9.0",
+      "연속": "2패",
       "최근10경기": "6승-4패-0무"
     },
     {
       "순위": 6,
       "팀명": "SSG",
       "경기": 144,
-      "승": 72,
-      "무": 2,
-      "패": 70,
-      "승률": 0.507,
-      "게임차": "15.0",
-      "연속": "5위결정전",
-      "최근10경기": "6승-4패-0무"
+      "승": 65,
+      "무": 5,
+      "패": 74,
+      "승률": 0.468,
+      "게임차": "17.0",
+      "연속": "1패",
+      "최근10경기": "7승-3패-0무"
     },
     {
       "순위": 7,
       "팀명": "롯데",
       "경기": 144,
-      "승": 66,
-      "무": 4,
-      "패": 74,
-      "승률": 0.471,
-      "게임차": "20.0",
-      "연속": "정규시즌",
-      "최근10경기": "5승-5패-0무"
+      "승": 64,
+      "무": 3,
+      "패": 77,
+      "승률": 0.454,
+      "게임차": "19.0",
+      "연속": "2승",
+      "최근10경기": "4승-5패-1무"
     },
     {
       "순위": 8,
-      "팀명": "한화",
+      "팀명": "NC",
       "경기": 144,
-      "승": 66,
+      "승": 64,
       "무": 2,
-      "패": 76,
-      "승률": 0.465,
-      "게임차": "21.0",
-      "연속": "정규시즌",
-      "최근10경기": "3승-7패-0무"
+      "패": 78,
+      "승률": 0.451,
+      "게임차": "19.5",
+      "연속": "1승",
+      "최근10경기": "2승-8패-0무"
     },
     {
       "순위": 9,
-      "팀명": "NC",
+      "팀명": "한화",
       "경기": 144,
-      "승": 61,
-      "무": 2,
-      "패": 81,
-      "승률": 0.43,
-      "게임차": "26.0",
-      "연속": "정규시즌",
-      "최근10경기": "4승-6패-0무"
+      "승": 57,
+      "무": 4,
+      "패": 83,
+      "승률": 0.407,
+      "게임차": "25.5",
+      "연속": "2패",
+      "최근10경기": "3승-7패-0무"
     },
     {
       "순위": 10,
       "팀명": "키움",
       "경기": 144,
-      "승": 58,
-      "무": 0,
-      "패": 86,
-      "승률": 0.403,
-      "게임차": "30.0",
-      "연속": "정규시즌",
-      "최근10경기": "3승-7패-0무"
+      "승": 50,
+      "무": 4,
+      "패": 90,
+      "승률": 0.357,
+      "게임차": "32.5",
+      "연속": "1승",
+      "최근10경기": "5승-5패-0무"
     }
   ],
   "sched": [
     {
-      "일시": "한국시리즈 1차전",
+      "일시": "11.03.(화)18:30",
       "원정팀": "삼성",
-      "원정점수": 1,
-      "원정투수/비고": "원태인",
-      "홈팀점수": 5,
-      "홈팀": "KIA",
-      "홈투수/비고": "정해영(승)",
-      "구장": "광주",
+      "원정점수": 7,
+      "원정투수/비고": "최원태패",
+      "홈팀점수": 8,
+      "홈팀": "KT",
+      "홈투수/비고": "승대니엘",
+      "구장": "수원",
+      "중계": "SBS"
+    },
+    {
+      "일시": "11.04.(수)18:30",
+      "원정팀": "삼성",
+      "원정점수": 3,
+      "원정투수/비고": "김태훈승",
+      "홈팀점수": 2,
+      "홈팀": "KT",
+      "홈투수/비고": "패오원석",
+      "구장": "수원",
       "중계": "MBC"
     },
     {
-      "일시": "한국시리즈 2차전",
-      "원정팀": "삼성",
-      "원정점수": 3,
-      "원정투수/비고": "황동재(패)",
-      "홈팀점수": 8,
-      "홈팀": "KIA",
-      "홈투수/비고": "양현종(승)",
-      "구장": "광주",
+      "일시": "11.06.(금)18:30",
+      "원정팀": "KT",
+      "원정점수": 1,
+      "원정투수/비고": "소형준패",
+      "홈팀점수": 5,
+      "홈팀": "삼성",
+      "홈투수/비고": "승후라도",
+      "구장": "대구",
       "중계": "KBS2"
     },
     {
-      "일시": "한국시리즈 3차전",
-      "원정팀": "KIA",
-      "원정점수": 2,
-      "원정투수/비고": "라우어(패)",
-      "홈팀점수": 4,
+      "일시": "11.07.(토)14:00",
+      "원정팀": "KT",
+      "원정점수": 5,
+      "원정투수/비고": "로건패",
+      "홈팀점수": 10,
       "홈팀": "삼성",
-      "홈투수/비고": "레예스(승)",
+      "홈투수/비고": "승이재희",
       "구장": "대구",
       "중계": "SBS"
     },
     {
-      "일시": "한국시리즈 4차전",
-      "원정팀": "KIA",
-      "원정점수": 9,
-      "원정투수/비고": "네일(승)",
-      "홈팀점수": 2,
+      "일시": "11.08.(일)14:00",
+      "원정팀": "KT",
+      "원정점수": 1,
+      "원정투수/비고": "대니엘패",
+      "홈팀점수": 12,
       "홈팀": "삼성",
-      "홈투수/비고": "원태인(패)",
+      "홈투수/비고": "승원태인",
       "구장": "대구",
       "중계": "MBC"
-    },
-    {
-      "일시": "한국시리즈 5차전",
-      "원정팀": "삼성",
-      "원정점수": 5,
-      "원정투수/비고": "이상민",
-      "홈팀점수": 7,
-      "홈팀": "KIA",
-      "홈투수/비고": "박찬호/정해영(승)",
-      "구장": "광주",
-      "중계": "KBS2"
     }
   ],
   "news": [
+    {
+      "title": "프로야구 스토브리그 본격화⋯KBO, 오늘(13일) FA 자격 선수 공시 예정",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vOFVIQWFxczNzcE8zcVM2SVlNNnMtNkRZSXZPTW1kYjJoUmVNNUdxU0tHenNjYkpKUmlkTHhKOF8tVVNXa2NLRjVtd3Uxb1FqZ0k3dg?oc=5",
+      "source": "이투데이",
+      "pubDate": "Fri, 13 Nov 2026"
+    },
     {
       "title": "프로야구 LG, 오스틴과 1년 더…KBO 외인 타자 중 ’최고 금액’",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MZGdTWWhRRHNVNkJEU08wOW5Pc0JFMFg5THE4aDRLQ1ZSajhSeGRpMVprSVYzamJMT3ZFQl9JTlpGekNxQjRRTXlwR29SNWVIRzV2MF9NZDRmeU9rcVRMZlBEcHJqdXM?oc=5",
@@ -368,21 +374,33 @@
       "pubDate": "Thu, 12 Nov 2026"
     },
     {
-      "title": "KBO 명경기가 테마, 2026 프로야구GO '캠페인 모드' 출시",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBrMmt3X0Y4Zkl6ZmhOak9sM19RT1ZWYTJPcnBkYVBlRkl5bVY2TU9pVVZCSWQzS2FmN1QxRl81OTJVbGRyZDZyclNTakhCTTJObk9tMklBRjfSAVtBVV95cUxOYm5pTU96TnFDRkxybjd2NmVtZ2VJR1JvVng4bEp3LU1SS2VuVExzZ3NWaWVSQ3ZKX1puZWhPV09UaXUwRkNJcWhLaG1KNC1aY3FxeFFNOVlKNE1n?oc=5",
-      "source": "게임메카",
-      "pubDate": "Wed, 11 Nov 2026"
+      "title": "[IS 포커스] MLB 직장폐쇄 변수에도 흔들림 없는 KBO 외인 시장…구단들은 '속전속결'",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93c0RNRl9aY2VEUVdzWG9xdjh5MUhUM1BLTEc2c2NWcVU5M05qWnlVdlp6dzd0blQybWVMZ29FaHV3ZVdVclJBLThOQ0FtUU9RZzV4cEJ3dTJSemc?oc=5",
+      "source": "일간스포츠",
+      "pubDate": "Thu, 12 Nov 2026"
     },
     {
-      "title": "'좀비 담배' 파문 야노부터 KBO 출신 타무라까지…일본 프로야구 트라이아웃 46명 참가",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vOHJPWTAxZDhHcE5obUhValNBNnVMYm9lS21KVGt0NFBqX1B2WkRhYmYtblVHS0dXemxsMzRNRngyUWJHS0hlVncxX2VMdk03OEtRSUtvRFVhV3M?oc=5",
-      "source": "일간스포츠",
+      "title": "두산 에이스 곽빈, 김광현 이후 4년 만에 KBO 최동원상 수상 영예",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MRmpzUVdwT0NqODBXcmN1SjhmSjVKcXpDLU8xeHltY1F6Si1SU1c5WjdVSUMyN0owdTFpVDZ1OF9ob3RJQ000MVlvZGx3NGJUQTFxZDlUcXBfWHlxZzFRaFNEN0xSZw?oc=5",
+      "source": "FT스포츠",
       "pubDate": "Tue, 10 Nov 2026"
     },
     {
-      "title": "[프로야구결산] ②2026년 빛낸 얼굴…레이예스 최다 안타와 김도영 최연소 기록",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FcU9RUk9iWWNqaGdXMktmOGE5V05oOWFuaVhVZ3FBSWNEcjFFZFdwZGJFeS1yUjhLSG9EMDUweGJORUJsbDdQSHdPY3Y2bUhqcTJCUjRONzJVSDTSAWBBVV95cUxNT1U5NThaYW1jQ2IwRnhxeEV3QVE4OWNSU3ZHOUtkYXF1SW5SbnlIY0Y5enNrN2VBM0lzVFp3Q2h1R3lVT21GWlJibTFHdU8yaVVGOUVSMnpMWlQ5UUNsRDQ?oc=5",
+      "title": "[APBC] 호주 선발 유격수 제이든 '김', 알고보니 KBO 선출 아들…PIT 마이너 소속",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvU01UTWtQTGxUck1TN1pHbXJtaXFtdXI4TXpsM0FaMzBhVmdiMjhWOEYzLXM3N0ZLTlFDRkNfVm9wT2VlQUpDVlhBUlBua3kyR2VONXM4WFpoLXA1?oc=5",
+      "source": "뉴스핌",
+      "pubDate": "Thu, 12 Nov 2026"
+    },
+    {
+      "title": "KBO, 프로야구 한화 내야수 노시환 MLB에 포스팅 요청",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15RF93M25ybmgwcm9xQmJFNmRxS0dKbjU4NUZpTmNyWHd2X3k3TVlwN3JzTlpCbE9TMHVSbGxDSVVGaS1ucjAwVVBSNjY4dzV4RGY2UThhazg1RUHSAWBBVV95cUxQeEZDRjlHMzF2dGRxV0ZzU29lYWdEVkVWa0trdzNocV9JTmJCelRYTE03SF81bmNlZ29VcDJ4aFRvdWtxSTNBQ1dQRWQyeUJ1cWpGU2x5Wkw0bHF2MElJYy0?oc=5",
       "source": "연합뉴스",
+      "pubDate": "Sat, 31 Oct 2026"
+    },
+    {
+      "title": "KBO 홈런왕, 슈퍼스타 김도영이 APBC 정벌을 위해 나선다 \"내 스윙을 하는데 초점 맞춘다\"",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVSUJUYXFscjFYM3RUV3F6WUNzcHhtUnRuVlVUUFJFS2thWmVzX3gySlA1U0ZYaGhJYlkwSjZtZjhobjkxOE5LZExVdHdTeUZFTFRTOERtcGp5UDczZmlpaXRsTjBTUHRlQVRBWm8wNi01b1diUGhJak5Ecmlqdw?oc=5",
+      "source": "스포츠조선",
       "pubDate": "Mon, 09 Nov 2026"
     },
     {
@@ -392,46 +410,28 @@
       "pubDate": "Wed, 11 Nov 2026"
     },
     {
-      "title": "KBO 프로야구, 정규시즌 종료…최종 팀 순위?",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE82STVjWlRZNU9LMUhDeWpWcHdhaXlIRTVmM3dSUHFOVEZ5R3NIY1didURJN1A5U0pjQWVRSFNjMklxWmdjUEZJWDlnUU5FZXJQMF9QbHZaMEJoWjZTY2JGT0F0ZHppdFRBVHc3NU43OVY4UQ?oc=5",
+      "title": "KBO 프로야구, 1일 경기 결과→현재 팀 순위?",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGUGVxSm9SRzFRQ3dlMHFUbUhibER3S2EyVzdFNzU0QUwzU3I1YmdoWDQ4WmZWUFJtVlJ5cjg3eXVWQXJHY1RrVTRzdFhCak5pang4ZkpKUXd0dWNYaHNxbElDckFoTnVwUXR4alRPU3hnQQ?oc=5",
       "source": "톱스타뉴스",
-      "pubDate": "Mon, 12 Oct 2026"
+      "pubDate": "Wed, 02 Sep 2026"
     },
     {
-      "title": "KBO 홈런왕, 슈퍼스타 김도영이 APBC 정벌을 위해 나선다 \"내 스윙을 하는데 초점 맞춘다\"",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBVSUJUYXFscjFYM3RUV3F6WUNzcHhtUnRuVlVUUFJFS2thWmVzX3gySlA1U0ZYaGhJYlkwSjZtZjhobjkxOE5LZExVdHdTeUZFTFRTOERtcGp5UDczZmlpaXRsTjBTUHRlQVRBWm8wNi01b1diUGhJak5Ecmlqdw?oc=5",
-      "source": "스포츠조선",
-      "pubDate": "Mon, 09 Nov 2026"
+      "title": "KBO 프로야구 후반기 시작…진짜 승부",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBoejY0ZUtIYUFjYWxGclFoN0h6WjQ3QlhFaTI5b0RkMW5JZ3dlOGNxZDB2Nm1BSk9SeDNaSHNXMWlIRG9zSHpBY1VGNWFXME9tWldub1NRZW9Yc1ZpU1JWeTJiTU4?oc=5",
+      "source": "BNT뉴스",
+      "pubDate": "Wed, 15 Jul 2026"
     },
     {
-      "title": "[프로야구] KBO, 골든글러브 주인은 누구인가…'양강체제' 벗어난 포수 부문도 화제",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JQUlCSEZPZEtwN0drT0JFQWZhVWFIX2tQNTBkdm93dWdjQ0JBamFiVUZLV0V3ZW43R2FGR21KcDdRaFNUaGZJcm4xaGp0ajJYNmZZRUlqbGJHaWZZ?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "Sat, 17 Oct 2026"
-    },
-    {
-      "title": "KBO, 프로야구 한화 내야수 노시환 MLB에 포스팅 요청",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15RF93M25ybmgwcm9xQmJFNmRxS0dKbjU4NUZpTmNyWHd2X3k3TVlwN3JzTlpCbE9TMHVSbGxDSVVGaS1ucjAwVVBSNjY4dzV4RGY2UThhazg1RUHSAWBBVV95cUxQeEZDRjlHMzF2dGRxV0ZzU29lYWdEVkVWa0trdzNocV9JTmJCelRYTE03SF81bmNlZ29VcDJ4aFRvdWtxSTNBQ1dQRWQyeUJ1cWpGU2x5Wkw0bHF2MElJYy0?oc=5",
-      "source": "연합뉴스",
-      "pubDate": "Sat, 31 Oct 2026"
-    },
-    {
-      "title": "KBO 프로야구, 5일 경기 결과→현재 팀 순위?",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE00ZzVZQjY5Sm9Ma1FtTEhUN0o0Rlh5Z3FoM0tILU5SZldONzhMSjBodk5CQXdnTDlDVHRRNmdQOXJpUlZuQzk5X3p2bG9pVXFodkdTcmxqeE9fV0lFYUZZTTEtVnBKN2I0eE5uZmR6SW5qQQ?oc=5",
-      "source": "톱스타뉴스",
-      "pubDate": "Tue, 06 Oct 2026"
-    },
-    {
-      "title": "[프로야구] KBO, 2026 정규시즌 2차 잔여일정 확정…다음달 12일 시즌 종료",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ZdmdtZUxza2k5YVhmUnRtV21Qb3dkVmxyQkJ6aTlNOUxtVTZlMHNIbEJ0dWJpcndJSjhjeFR0cWw0RFdDWHZhQ3J2V0RramF3X2xfUlRYZFdsYV8y?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "Wed, 30 Sep 2026"
-    },
-    {
-      "title": "KBO 프로야구, 26일 경기 결과→현재 팀 순위?",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1uUkdrY3JuRDB6SFU3MTlJbkUwbVB3T0hGVW5RQXZ3TjJ3a3M2OFpJRTZ6SHNHMnpTUzJiOTE0VWRBTFBHWWY1R1d1bkpOekRUY1loUTY0SzFpNnhNc1RtWUhzVDJ5X25CRnJfbGt4NDFvdw?oc=5",
-      "source": "톱스타뉴스",
+      "title": "KBO프로야구 올해도 1000만 관중… 3년 연속 흥행가도",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tVVlyV3AxOU85b2t3R04xZkNlV043SGtYdUQ2YWhxLWZFd2FvUWhBZFdsZG9wbHd1WFhnRm54YTFiSlpwZk10QnNHZW83V3A0MkZyTHVKNkFwNkxZUktWUWpFRUlhVFlD?oc=5",
+      "source": "대경일보",
       "pubDate": "Thu, 27 Aug 2026"
+    },
+    {
+      "title": "2026 KBO 프로야구 개막! 정규시즌 일정부터 티켓 예매까지",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAyNUdyaDdQQXI4NjlrUk5ocnZDbVItZmpDNDkzUlplZUJMWHpvZmE2VldjR0pZdWFKZmU1RVI1Zmg2M1pjenNreWl5TlhDcnVsMjBoR2RB?oc=5",
+      "source": "KB Think",
+      "pubDate": "Thu, 19 Mar 2026"
     }
   ],
   "batters": {
