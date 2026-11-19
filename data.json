@@ -184,188 +184,230 @@
   "ranks": [
     {
       "순위": 1,
-      "팀명": "삼성",
-      "경기": 144,
-      "승": 83,
-      "무": 3,
-      "패": 58,
-      "승률": 0.589,
-      "게임차": "0.0",
-      "연속": "4패",
-      "최근10경기": "4승-6패-0무"
-    },
-    {
-      "순위": 2,
-      "팀명": "KT",
-      "경기": 144,
-      "승": 90,
-      "무": 5,
-      "패": 49,
-      "승률": 0.647,
-      "게임차": "-8.0",
-      "연속": "10승",
-      "최근10경기": "9승-0패-1무"
-    },
-    {
-      "순위": 3,
       "팀명": "KIA",
       "경기": 144,
-      "승": 79,
+      "승": 87,
       "무": 2,
-      "패": 63,
-      "승률": 0.556,
-      "게임차": "4.5",
-      "연속": "1승",
+      "패": 55,
+      "승률": 0.613,
+      "게임차": "0.0",
+      "연속": "우승",
       "최근10경기": "7승-3패-0무"
     },
     {
-      "순위": 4,
-      "팀명": "LG",
+      "순위": 2,
+      "팀명": "삼성",
       "경기": 144,
       "승": 78,
-      "무": 1,
-      "패": 65,
-      "승률": 0.545,
-      "게임차": "6.0",
-      "연속": "1패",
-      "최근10경기": "3승-7패-0무"
+      "무": 2,
+      "패": 64,
+      "승률": 0.549,
+      "게임차": "9.0",
+      "연속": "준우승",
+      "최근10경기": "5승-5패-0무"
+    },
+    {
+      "순위": 3,
+      "팀명": "LG",
+      "경기": 144,
+      "승": 76,
+      "무": 2,
+      "패": 66,
+      "승률": 0.535,
+      "게임차": "11.0",
+      "연속": "플레이오프",
+      "최근10경기": "6승-4패-0무"
+    },
+    {
+      "순위": 4,
+      "팀명": "두산",
+      "경기": 144,
+      "승": 74,
+      "무": 2,
+      "패": 68,
+      "승률": 0.521,
+      "게임차": "13.0",
+      "연속": "와일드카드",
+      "최근10경기": "4승-6패-0무"
     },
     {
       "순위": 5,
-      "팀명": "두산",
+      "팀명": "KT",
       "경기": 144,
-      "승": 73,
-      "무": 5,
-      "패": 66,
-      "승률": 0.525,
-      "게임차": "9.0",
-      "연속": "2패",
+      "승": 72,
+      "무": 2,
+      "패": 70,
+      "승률": 0.507,
+      "게임차": "15.0",
+      "연속": "와일드카드",
       "최근10경기": "6승-4패-0무"
     },
     {
       "순위": 6,
       "팀명": "SSG",
       "경기": 144,
-      "승": 65,
-      "무": 5,
-      "패": 74,
-      "승률": 0.468,
-      "게임차": "17.0",
-      "연속": "1패",
-      "최근10경기": "7승-3패-0무"
+      "승": 72,
+      "무": 2,
+      "패": 70,
+      "승률": 0.507,
+      "게임차": "15.0",
+      "연속": "5위결정전",
+      "최근10경기": "6승-4패-0무"
     },
     {
       "순위": 7,
       "팀명": "롯데",
       "경기": 144,
-      "승": 64,
-      "무": 3,
-      "패": 77,
-      "승률": 0.454,
-      "게임차": "19.0",
-      "연속": "2승",
-      "최근10경기": "4승-5패-1무"
+      "승": 66,
+      "무": 4,
+      "패": 74,
+      "승률": 0.471,
+      "게임차": "20.0",
+      "연속": "정규시즌",
+      "최근10경기": "5승-5패-0무"
     },
     {
       "순위": 8,
-      "팀명": "NC",
+      "팀명": "한화",
       "경기": 144,
-      "승": 64,
+      "승": 66,
       "무": 2,
-      "패": 78,
-      "승률": 0.451,
-      "게임차": "19.5",
-      "연속": "1승",
-      "최근10경기": "2승-8패-0무"
+      "패": 76,
+      "승률": 0.465,
+      "게임차": "21.0",
+      "연속": "정규시즌",
+      "최근10경기": "3승-7패-0무"
     },
     {
       "순위": 9,
-      "팀명": "한화",
+      "팀명": "NC",
       "경기": 144,
-      "승": 57,
-      "무": 4,
-      "패": 83,
-      "승률": 0.407,
-      "게임차": "25.5",
-      "연속": "2패",
-      "최근10경기": "3승-7패-0무"
+      "승": 61,
+      "무": 2,
+      "패": 81,
+      "승률": 0.43,
+      "게임차": "26.0",
+      "연속": "정규시즌",
+      "최근10경기": "4승-6패-0무"
     },
     {
       "순위": 10,
       "팀명": "키움",
       "경기": 144,
-      "승": 50,
-      "무": 4,
-      "패": 90,
-      "승률": 0.357,
-      "게임차": "32.5",
-      "연속": "1승",
-      "최근10경기": "5승-5패-0무"
+      "승": 58,
+      "무": 0,
+      "패": 86,
+      "승률": 0.403,
+      "게임차": "30.0",
+      "연속": "정규시즌",
+      "최근10경기": "3승-7패-0무"
     }
   ],
   "sched": [
     {
-      "일시": "11.03.(화)18:30",
+      "일시": "한국시리즈 1차전",
       "원정팀": "삼성",
-      "원정점수": 7,
-      "원정투수/비고": "최원태패",
-      "홈팀점수": 8,
-      "홈팀": "KT",
-      "홈투수/비고": "승대니엘",
-      "구장": "수원",
-      "중계": "SBS"
-    },
-    {
-      "일시": "11.04.(수)18:30",
-      "원정팀": "삼성",
-      "원정점수": 3,
-      "원정투수/비고": "김태훈승",
-      "홈팀점수": 2,
-      "홈팀": "KT",
-      "홈투수/비고": "패오원석",
-      "구장": "수원",
+      "원정점수": 1,
+      "원정투수/비고": "원태인",
+      "홈팀점수": 5,
+      "홈팀": "KIA",
+      "홈투수/비고": "정해영(승)",
+      "구장": "광주",
       "중계": "MBC"
     },
     {
-      "일시": "11.06.(금)18:30",
-      "원정팀": "KT",
-      "원정점수": 1,
-      "원정투수/비고": "소형준패",
-      "홈팀점수": 5,
-      "홈팀": "삼성",
-      "홈투수/비고": "승후라도",
-      "구장": "대구",
+      "일시": "한국시리즈 2차전",
+      "원정팀": "삼성",
+      "원정점수": 3,
+      "원정투수/비고": "황동재(패)",
+      "홈팀점수": 8,
+      "홈팀": "KIA",
+      "홈투수/비고": "양현종(승)",
+      "구장": "광주",
       "중계": "KBS2"
     },
     {
-      "일시": "11.07.(토)14:00",
-      "원정팀": "KT",
-      "원정점수": 5,
-      "원정투수/비고": "로건패",
-      "홈팀점수": 10,
+      "일시": "한국시리즈 3차전",
+      "원정팀": "KIA",
+      "원정점수": 2,
+      "원정투수/비고": "라우어(패)",
+      "홈팀점수": 4,
       "홈팀": "삼성",
-      "홈투수/비고": "승이재희",
+      "홈투수/비고": "레예스(승)",
       "구장": "대구",
       "중계": "SBS"
     },
     {
-      "일시": "11.08.(일)14:00",
-      "원정팀": "KT",
-      "원정점수": 1,
-      "원정투수/비고": "대니엘패",
-      "홈팀점수": 12,
+      "일시": "한국시리즈 4차전",
+      "원정팀": "KIA",
+      "원정점수": 9,
+      "원정투수/비고": "네일(승)",
+      "홈팀점수": 2,
       "홈팀": "삼성",
-      "홈투수/비고": "승원태인",
+      "홈투수/비고": "원태인(패)",
       "구장": "대구",
       "중계": "MBC"
+    },
+    {
+      "일시": "한국시리즈 5차전",
+      "원정팀": "삼성",
+      "원정점수": 5,
+      "원정투수/비고": "이상민",
+      "홈팀점수": 7,
+      "홈팀": "KIA",
+      "홈투수/비고": "박찬호/정해영(승)",
+      "구장": "광주",
+      "중계": "KBS2"
     }
   ],
   "news": [
+    {
+      "title": "허구연 KBO 총재, 만장일치로 3연임 확정…2029년까지 한국 프로야구 이끈다",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pZjJEaUtQSWk3Y3hnQnFxQmhnSmUyUnhlcWlqZXY4bERqSFdkZ1pQTXFwRXJLdkxNR3ZRNnlLcDVUMjJtV0U1bGhibW5hS0FTRXM3ZU5HdFljMDhTRlNlLQ?oc=5",
+      "source": "TSN KOREA",
+      "pubDate": "Thu, 19 Nov 2026"
+    },
+    {
+      "title": "[2027 프로야구 스토브리그] 본격적으로 논공행상 시작...김도영 일구회, KBO 수비상 등 벌써 2관왕",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UODZfbHdQd3Fic2JneWQ3SzFwd2ZJbVYxSnMwMXd4TTI4QW1Kc3lHQUdRdGZOcEM5Tzc3MHpfWmZiMWpBNDByclRGY1piVXlhWTN0LVVEYTZiM2NwblUwSHI4ZlAyTUdBanVnLQ?oc=5",
+      "source": "뉴시안",
+      "pubDate": "Wed, 18 Nov 2026"
+    },
+    {
+      "title": "‘프로야구 슈퍼스타’ 김도영, 일구대상-KBO 수비상 ‘겹경사’",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1DRk5JaUU0cFNucVg3NnkyY0FyRjZjSHNQTl9udW1mVmxVQ2VBTGdneWRJLUhfXzkzaVQ1dmRjUVYxZ1JlekRiTjB4bUxYMjdfTElF?oc=5",
+      "source": "매일경제",
+      "pubDate": "Wed, 18 Nov 2026"
+    },
+    {
+      "title": "허구연 KBO 총재, 만장일치로 3연임 확정…2029년까지 프로야구 이끈다",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpajBrX05zQVduXzFMcjdQQjcxckVEZlZwUGxPTXVkNEc3YktCWkJ2RlRoUHVCQUFSZ19rcFR0a2FLUVV2TDFSbHd2SDhkczlfVDg1c3pHNXNiQWZ1Rk80MGc4c0FaUQ?oc=5",
+      "source": "싱글리스트",
+      "pubDate": "Thu, 19 Nov 2026"
+    },
+    {
+      "title": "프로야구 kt 위즈, 4년 만에 KBO 수비상 수상자 배출 실패",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqM0dkUVZENmhDUEEwNDlpTF84aHpsb2VSdDlTSGZIOURjWTBDOEU3ejNDOXAxbFZjQ2pCRXV5WFJWNlFGUDhQamZSZWlLaXY3alhKUmc5ODdIa3l3bFRSdk9QdVJ6Y2QyRVVDSktqVQ?oc=5",
+      "source": "기호일보",
+      "pubDate": "Wed, 18 Nov 2026"
+    },
+    {
+      "title": "허구연 KBO 총재 '만장일치'로 3연임 확정, 역대 세 번째",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xYTNyVE00UHhKdWNhdXUxY3JQWVlfNUtEaWFuNHRGcGY1dzBLa3l3NEdBTnZLdHI1Z1V2MGNWR0F5NlZJNkd5U25nZ3VZeDA1NHFhOUJWSEJCY1E?oc=5",
+      "source": "일간스포츠",
+      "pubDate": "Thu, 19 Nov 2026"
+    },
     {
       "title": "[오피셜] 드디어 FA 시장이 열렸다! KBO, FA 승인 선수 22명 명단 발표…17일부터 계약 체결 교섭 가능",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc3RhT2dVRTR6T1oyMEw4Z3JsdXJYdFp5bEpSdGRNazZibGR6aF9lTjZLYndwVktQSHNMcjlSRE4tZTVyQnFLWElqLUlpaEpPd0YxbWg3OWtBeHZXSjNjd2RoZ01POVN1TmxMRU53b3o4SkpiV3hTanA0YlgyUlN4OXdxUQ?oc=5",
       "source": "조선일보",
       "pubDate": "Mon, 16 Nov 2026"
+    },
+    {
+      "title": "2026 ADT캡스 KBO 수비상 수상자 선정",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZTlgtNEZxVTB0X2VBRmh4OE9jOC04dktMYzA1eVZ3TkJiNHFRcW1Ca19kSUlidUc2TGQtWURFcklKemVsallYNzVFYmdaeHJxbWJPTUxPN3BpUllnclpwcUJRNzhGTnlSV2c?oc=5",
+      "source": "굿모닝투데이",
+      "pubDate": "Thu, 19 Nov 2026"
     },
     {
       "title": "프로야구 ’쩐의 전쟁’ 시작됐다…KBO, FA 승인 선수 22명 명단 발표",
@@ -374,64 +416,22 @@
       "pubDate": "Mon, 16 Nov 2026"
     },
     {
-      "title": "프로야구 스토브리그 본격화⋯KBO, 오늘(13일) FA 자격 선수 공시 예정",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vOFVIQWFxczNzcE8zcVM2SVlNNnMtNkRZSXZPTW1kYjJoUmVNNUdxU0tHenNjYkpKUmlkTHhKOF8tVVNXa2NLRjVtd3Uxb1FqZ0k3dg?oc=5",
-      "source": "이투데이",
-      "pubDate": "Fri, 13 Nov 2026"
+      "title": "사인볼에서 에버랜드까지, 진화하는 우승 공약 [프로야구]",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9KLXViUTV4akZJX3FpZWd5d0QxOFR4THJfMTAxVXRnTWhxX01IbWdJM0ZoQ20wdFNibW5HaGxoUnhScjZIdzRjaG5yZ0JqYzZudGtMcnBkcnRBbEVQTHBiaU5GOHJRLVVVdnc?oc=5",
+      "source": "스포츠Q",
+      "pubDate": "Wed, 18 Nov 2026"
     },
     {
-      "title": "[프로야구] KBO, FA 명단 공시…삼성 구자욱·원태인 'A등급', KIA 김호령 'C등급'",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8wVlhNSXJCUkRZYWloY0gyUEptVFJPZXhZSEN4bjMxZ1RsckdmdUFWVlNNMHVBalBWOGZiUkVYTFdPQUJUZktUOWhSaW5VTFQwTHROZ3NESzVnQlk5?oc=5",
+      "title": "[프로야구] '홈런왕' 김도영, 데뷔 첫 KBO 3루수 수비상",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBESHdrVTEySkFLWDZMTko5a0RpU25Vb3ZpOEo2Z0RuckhGcUlJZF92bXRfUHNVaXNLcE9RelpRLUdzbXJ0VWh3MVpfYVctemVNcUgxOFdrelRxYnBr?oc=5",
       "source": "뉴스핌",
-      "pubDate": "Fri, 13 Nov 2026"
+      "pubDate": "Wed, 18 Nov 2026"
     },
     {
-      "title": "프로야구 FA 22명 공시…원태인·구자욱 시장에 나온다",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84Q2tidTJKQXRkUV9aVXJDNTFnOXI1Mjd5WmtqM2hHWDZmSkUzNktnWUZ6SXgwaHNDRkJqbWRoY3FqVEdMSmp0ZWJqbHMxdmEwT2ZpXzBXS29Ud2c?oc=5",
-      "source": "연합뉴스",
-      "pubDate": "Mon, 16 Nov 2026"
-    },
-    {
-      "title": "KBO FA 승인 22명 공시…KT 6명·SSG 3명 시장 출격",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtNlNNR1dkcjhDSjVXNUR0VGVxaS1DRmdVRU9RaWtDaTlZXzJaWmVnel82T3JlT3FlQUNEUmdpdXRsV3hkOXlhV2VKU1dGZ05uMHVveHY0elJ3ZWc?oc=5",
-      "source": "경기일보",
-      "pubDate": "Mon, 16 Nov 2026"
-    },
-    {
-      "title": "2027년 프로야구 FA 승인 선수 명단",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9DWVBUZE1XUnIzekk4c2JaWUdMRVJqNVIzQ3J3aVQ4SEZsZ0hGVm9ORHpWYnVfc2Y0YmJZMDdGektjZ0g5T24wNjNhTG1vTnVyMjNiOHFPenRvaW9MNTlCOEJiLUo?oc=5",
-      "source": "www.bntnews.co.kr",
-      "pubDate": "Mon, 16 Nov 2026"
-    },
-    {
-      "title": "KBO, 2027년 FA 자격 선수 명단 공시",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB1aTFmYnVfZElCQkhVSkRKaktTTFZqU19Zd2VTdE5hWFVWMlU1RWVlRVFjS2g1QVBTSWxmVFlRaERMNkIzNWc5dE5HcmNlUWZGUEotNE5sdTdDeG5UZzN0OHhvaWhzS0xyTVE?oc=5",
-      "source": "굿모닝투데이",
-      "pubDate": "Fri, 13 Nov 2026"
-    },
-    {
-      "title": "KBO프로야구 올해도 1000만 관중… 3년 연속 흥행가도",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tVVlyV3AxOU85b2t3R04xZkNlV043SGtYdUQ2YWhxLWZFd2FvUWhBZFdsZG9wbHd1WFhnRm54YTFiSlpwZk10QnNHZW83V3A0MkZyTHVKNkFwNkxZUktWUWpFRUlhVFlD?oc=5",
-      "source": "대경일보",
-      "pubDate": "Thu, 27 Aug 2026"
-    },
-    {
-      "title": "2027년 프로야구 FA 자격 선수 28명 명단 공개",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZcXVVZVVjbkd2bXJDdG9Pemk3UkhqMmdVRVQ3TEdUTFhzR2pOLXFEMXJCSnhkTGpXZnJmWTktZ1h4ZmJ1QVJVQ3pPWVlQUDFrZzhPNQ?oc=5",
-      "source": "이투데이",
-      "pubDate": "Fri, 13 Nov 2026"
-    },
-    {
-      "title": "[프로야구] KBO FA 1호 계약…SSG, '9시의 남자' 오태곤과 3년 11억 계약",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRY3pJX1lIQ2F2T0wxZlFzOF9fU1hQRnVHRnpRUklqOFZpZDZxTkliQy1aTDdVQTZ1azVSdU9xd3pVNmFKNExIeGMyNE1va0tMbXFTUFMzdy1iZTVH?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "Tue, 17 Nov 2026"
-    },
-    {
-      "title": "문체부·경찰·KBO, 프로야구 포스트시즌 전 경기 암표 현장 단속",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NeXBOd0ItWEx0S3FRaTdiMDRDbzktQ21YaV9EZmo0NzlDbUJJYTJicUZEcDhLSloxT3pDU2RuaFYtcEpmNXFzTE81cjFVZw?oc=5",
-      "source": "전자신문",
-      "pubDate": "Tue, 13 Oct 2026"
+      "title": "'KBO 최고 치어리더는 누구?' 50명 중 팬들이 직접 뽑는 시상식 열린다",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SdVZFYW1meVJzejRNd1BTQlZTa0NyYVBrbURyX2htMWhUaUVuNGFfOUEwYWpRTUl0b0RRcW1Md250VDJnQjhMcF9STEdIVWFvMUFDNWtzenZIR00wMC1Xc1ExNlg2c0VzSF9DdzJWYUdXbDV5dGc?oc=5",
+      "source": "스타뉴스",
+      "pubDate": "Wed, 18 Nov 2026"
     }
   ],
   "batters": {
