@@ -184,189 +184,183 @@
   "ranks": [
     {
       "순위": 1,
-      "팀명": "KIA",
-      "경기": 144,
-      "승": 87,
-      "무": 2,
-      "패": 55,
-      "승률": 0.613,
-      "게임차": "0.0",
-      "연속": "우승",
-      "최근10경기": "7승-3패-0무"
-    },
-    {
-      "순위": 2,
       "팀명": "삼성",
       "경기": 144,
-      "승": 78,
-      "무": 2,
-      "패": 64,
-      "승률": 0.549,
-      "게임차": "9.0",
-      "연속": "준우승",
-      "최근10경기": "5승-5패-0무"
-    },
-    {
-      "순위": 3,
-      "팀명": "LG",
-      "경기": 144,
-      "승": 76,
-      "무": 2,
-      "패": 66,
-      "승률": 0.535,
-      "게임차": "11.0",
-      "연속": "플레이오프",
-      "최근10경기": "6승-4패-0무"
-    },
-    {
-      "순위": 4,
-      "팀명": "두산",
-      "경기": 144,
-      "승": 74,
-      "무": 2,
-      "패": 68,
-      "승률": 0.521,
-      "게임차": "13.0",
-      "연속": "와일드카드",
+      "승": 83,
+      "무": 3,
+      "패": 58,
+      "승률": 0.589,
+      "게임차": "0.0",
+      "연속": "4패",
       "최근10경기": "4승-6패-0무"
     },
     {
-      "순위": 5,
+      "순위": 2,
       "팀명": "KT",
       "경기": 144,
-      "승": 72,
+      "승": 90,
+      "무": 5,
+      "패": 49,
+      "승률": 0.647,
+      "게임차": "-8.0",
+      "연속": "10승",
+      "최근10경기": "9승-0패-1무"
+    },
+    {
+      "순위": 3,
+      "팀명": "KIA",
+      "경기": 144,
+      "승": 79,
       "무": 2,
-      "패": 70,
-      "승률": 0.507,
-      "게임차": "15.0",
-      "연속": "와일드카드",
+      "패": 63,
+      "승률": 0.556,
+      "게임차": "4.5",
+      "연속": "1승",
+      "최근10경기": "7승-3패-0무"
+    },
+    {
+      "순위": 4,
+      "팀명": "LG",
+      "경기": 144,
+      "승": 78,
+      "무": 1,
+      "패": 65,
+      "승률": 0.545,
+      "게임차": "6.0",
+      "연속": "1패",
+      "최근10경기": "3승-7패-0무"
+    },
+    {
+      "순위": 5,
+      "팀명": "두산",
+      "경기": 144,
+      "승": 73,
+      "무": 5,
+      "패": 66,
+      "승률": 0.525,
+      "게임차": "9.0",
+      "연속": "2패",
       "최근10경기": "6승-4패-0무"
     },
     {
       "순위": 6,
       "팀명": "SSG",
       "경기": 144,
-      "승": 72,
-      "무": 2,
-      "패": 70,
-      "승률": 0.507,
-      "게임차": "15.0",
-      "연속": "5위결정전",
-      "최근10경기": "6승-4패-0무"
+      "승": 65,
+      "무": 5,
+      "패": 74,
+      "승률": 0.468,
+      "게임차": "17.0",
+      "연속": "1패",
+      "최근10경기": "7승-3패-0무"
     },
     {
       "순위": 7,
       "팀명": "롯데",
       "경기": 144,
-      "승": 66,
-      "무": 4,
-      "패": 74,
-      "승률": 0.471,
-      "게임차": "20.0",
-      "연속": "정규시즌",
-      "최근10경기": "5승-5패-0무"
+      "승": 64,
+      "무": 3,
+      "패": 77,
+      "승률": 0.454,
+      "게임차": "19.0",
+      "연속": "2승",
+      "최근10경기": "4승-5패-1무"
     },
     {
       "순위": 8,
-      "팀명": "한화",
+      "팀명": "NC",
       "경기": 144,
-      "승": 66,
+      "승": 64,
       "무": 2,
-      "패": 76,
-      "승률": 0.465,
-      "게임차": "21.0",
-      "연속": "정규시즌",
-      "최근10경기": "3승-7패-0무"
+      "패": 78,
+      "승률": 0.451,
+      "게임차": "19.5",
+      "연속": "1승",
+      "최근10경기": "2승-8패-0무"
     },
     {
       "순위": 9,
-      "팀명": "NC",
+      "팀명": "한화",
       "경기": 144,
-      "승": 61,
-      "무": 2,
-      "패": 81,
-      "승률": 0.43,
-      "게임차": "26.0",
-      "연속": "정규시즌",
-      "최근10경기": "4승-6패-0무"
+      "승": 57,
+      "무": 4,
+      "패": 83,
+      "승률": 0.407,
+      "게임차": "25.5",
+      "연속": "2패",
+      "최근10경기": "3승-7패-0무"
     },
     {
       "순위": 10,
       "팀명": "키움",
       "경기": 144,
-      "승": 58,
-      "무": 0,
-      "패": 86,
-      "승률": 0.403,
-      "게임차": "30.0",
-      "연속": "정규시즌",
-      "최근10경기": "3승-7패-0무"
+      "승": 50,
+      "무": 4,
+      "패": 90,
+      "승률": 0.357,
+      "게임차": "32.5",
+      "연속": "1승",
+      "최근10경기": "5승-5패-0무"
     }
   ],
   "sched": [
     {
-      "일시": "한국시리즈 1차전",
+      "일시": "11.03.(화)18:30",
       "원정팀": "삼성",
-      "원정점수": 1,
-      "원정투수/비고": "원태인",
-      "홈팀점수": 5,
-      "홈팀": "KIA",
-      "홈투수/비고": "정해영(승)",
-      "구장": "광주",
+      "원정점수": 7,
+      "원정투수/비고": "최원태패",
+      "홈팀점수": 8,
+      "홈팀": "KT",
+      "홈투수/비고": "승대니엘",
+      "구장": "수원",
+      "중계": "SBS"
+    },
+    {
+      "일시": "11.04.(수)18:30",
+      "원정팀": "삼성",
+      "원정점수": 3,
+      "원정투수/비고": "김태훈승",
+      "홈팀점수": 2,
+      "홈팀": "KT",
+      "홈투수/비고": "패오원석",
+      "구장": "수원",
       "중계": "MBC"
     },
     {
-      "일시": "한국시리즈 2차전",
-      "원정팀": "삼성",
-      "원정점수": 3,
-      "원정투수/비고": "황동재(패)",
-      "홈팀점수": 8,
-      "홈팀": "KIA",
-      "홈투수/비고": "양현종(승)",
-      "구장": "광주",
+      "일시": "11.06.(금)18:30",
+      "원정팀": "KT",
+      "원정점수": 1,
+      "원정투수/비고": "소형준패",
+      "홈팀점수": 5,
+      "홈팀": "삼성",
+      "홈투수/비고": "승후라도",
+      "구장": "대구",
       "중계": "KBS2"
     },
     {
-      "일시": "한국시리즈 3차전",
-      "원정팀": "KIA",
-      "원정점수": 2,
-      "원정투수/비고": "라우어(패)",
-      "홈팀점수": 4,
+      "일시": "11.07.(토)14:00",
+      "원정팀": "KT",
+      "원정점수": 5,
+      "원정투수/비고": "로건패",
+      "홈팀점수": 10,
       "홈팀": "삼성",
-      "홈투수/비고": "레예스(승)",
+      "홈투수/비고": "승이재희",
       "구장": "대구",
       "중계": "SBS"
     },
     {
-      "일시": "한국시리즈 4차전",
-      "원정팀": "KIA",
-      "원정점수": 9,
-      "원정투수/비고": "네일(승)",
-      "홈팀점수": 2,
+      "일시": "11.08.(일)14:00",
+      "원정팀": "KT",
+      "원정점수": 1,
+      "원정투수/비고": "대니엘패",
+      "홈팀점수": 12,
       "홈팀": "삼성",
-      "홈투수/비고": "원태인(패)",
+      "홈투수/비고": "승원태인",
       "구장": "대구",
       "중계": "MBC"
-    },
-    {
-      "일시": "한국시리즈 5차전",
-      "원정팀": "삼성",
-      "원정점수": 5,
-      "원정투수/비고": "이상민",
-      "홈팀점수": 7,
-      "홈팀": "KIA",
-      "홈투수/비고": "박찬호/정해영(승)",
-      "구장": "광주",
-      "중계": "KBS2"
     }
   ],
   "news": [
-    {
-      "title": "[프로야구] KBO MVP·신인왕은 누구 품에…26일 시상식 개최",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mckp6d2I5M0FrclBvaXpKdEYyZVV2X1J4OTh0MUtaVDZ6VVhZakR6dXNTVGdGdTVnM2tYaDdQVTFkeUVwZHZiSWZlNk5fSnNpLUMwVXE2akl4ODJD?oc=5",
-      "source": "뉴스핌",
-      "pubDate": "Thu, 19 Nov 2026"
-    },
     {
       "title": "[2027 프로야구 스토브리그] KBO리그 ‘FA 제도’의 ‘명과 암’",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85MHF6ZkxfQVk4RkQ2QUg5Q0V4ZFY0TUJOOVZXOWV6VFFKNTZGamp0dDNWeDhZLUYzamxMazZMdUItYzZvYmJRTFhFT3llMVhKVFY5ZE5CeVozRDhOQ0p4Zkd4UjVCNEUxV0I0VQ?oc=5",
@@ -386,15 +380,9 @@
       "pubDate": "Wed, 18 Nov 2026"
     },
     {
-      "title": "'KBO 홀드왕' KT 위즈 스기모토, 일본행 확정…소프트뱅크 육성선수로 새 출발",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aYTMzOUdtY3N3SkhMakpXc1BYUVVSVVh0TnF5WXRWbmNzSkltUklHZUxuWXhPRnFOdlh5bUNZdFpKaEhOeGxxcndrZ2ZUUnpFZzhhLVhYQTFZeC1sSFFJa2R3?oc=5",
-      "source": "경기신문",
-      "pubDate": "Thu, 19 Nov 2026"
-    },
-    {
-      "title": "허구연 KBO 총재, 만장일치로 3연임…프로야구 중흥 이끈다",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9TZEh1NDl1SktsMXJQN3ZUR0hOTTZlRjVvQ1NZOWRNMTdrRi1WNzZ6aUNJMzNLNlhJTFoxN2V3UQ?oc=5",
-      "source": "무예신문",
+      "title": "[프로야구] KBO MVP·신인왕은 누구 품에…26일 시상식 개최",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5mckp6d2I5M0FrclBvaXpKdEYyZVV2X1J4OTh0MUtaVDZ6VVhZakR6dXNTVGdGdTVnM2tYaDdQVTFkeUVwZHZiSWZlNk5fSnNpLUMwVXE2akl4ODJD?oc=5",
+      "source": "뉴스핌",
       "pubDate": "Thu, 19 Nov 2026"
     },
     {
@@ -416,9 +404,9 @@
       "pubDate": "Thu, 19 Nov 2026"
     },
     {
-      "title": "kt 아시아쿼터 스기모토, 홀드왕 타이틀 품고 소프트뱅크 입단...KBO리그 출신이 신인드래프트 통해 일본 프로야구 진출한 첫 사례",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6cU5aVnhER0d5ZGF5ZGFQMkhWM2VuekFtTXdOekdSenJ2Wl8xMFlUd196ajNTazN0X2VtVUhNVkI1MUJabmNQV21nQ1pYTXRveGVXZmxBbDRSSDNtcUxtVENhanhqdmhxaFhXMg?oc=5",
-      "source": "서울신문",
+      "title": "허구연 KBO 총재, 만장일치로 3연임…프로야구 중흥 이끈다",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE9TZEh1NDl1SktsMXJQN3ZUR0hOTTZlRjVvQ1NZOWRNMTdrRi1WNzZ6aUNJMzNLNlhJTFoxN2V3UQ?oc=5",
+      "source": "무예신문",
       "pubDate": "Thu, 19 Nov 2026"
     },
     {
@@ -432,6 +420,18 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlMm5qX1pfN3ZjQWZkdEJfRGswZHZUNVBFckhqOE43VTdBVkhRbE9yT3F5WmxaajdfaHRmS05aeDE0QTlQQlRSS2NVRjNhYXBYV1Y1ZFR6RkNTNU52WGw4VkZ2NWhMdlNDRVE?oc=5",
       "source": "경북도민일보",
       "pubDate": "Thu, 19 Nov 2026"
+    },
+    {
+      "title": "'KBO 홀드왕' KT 위즈 스기모토, 일본행 확정…소프트뱅크 육성선수로 새 출발",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aYTMzOUdtY3N3SkhMakpXc1BYUVVSVVh0TnF5WXRWbmNzSkltUklHZUxuWXhPRnFOdlh5bUNZdFpKaEhOeGxxcndrZ2ZUUnpFZzhhLVhYQTFZeC1sSFFJa2R3?oc=5",
+      "source": "경기신문",
+      "pubDate": "Thu, 19 Nov 2026"
+    },
+    {
+      "title": "허구연 KBO 총재 세번째 연임, 성과와 과제는?",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hLWpCTUt4R0ZSWTlsRDh1MXRpdEhGbVRjZksyNWFFa2dFY29GTF9HSTRVY2FDX2xkUE0zWUw0OGlFUDJVV3ZWTXJmSHhad2R5Ym5jVUZQUlNaQTE0aldrYy15REJZTlNMb2toX2NLU0tCY2E3eG5aM3VOTDBTUQ?oc=5",
+      "source": "오마이스타",
+      "pubDate": "Fri, 20 Nov 2026"
     }
   ],
   "batters": {
