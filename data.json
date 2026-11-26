@@ -184,254 +184,254 @@
   "ranks": [
     {
       "순위": 1,
-      "팀명": "KIA",
-      "경기": 144,
-      "승": 87,
-      "무": 2,
-      "패": 55,
-      "승률": 0.613,
-      "게임차": "0.0",
-      "연속": "우승",
-      "최근10경기": "7승-3패-0무"
-    },
-    {
-      "순위": 2,
       "팀명": "삼성",
       "경기": 144,
-      "승": 78,
-      "무": 2,
-      "패": 64,
-      "승률": 0.549,
-      "게임차": "9.0",
-      "연속": "준우승",
-      "최근10경기": "5승-5패-0무"
-    },
-    {
-      "순위": 3,
-      "팀명": "LG",
-      "경기": 144,
-      "승": 76,
-      "무": 2,
-      "패": 66,
-      "승률": 0.535,
-      "게임차": "11.0",
-      "연속": "플레이오프",
-      "최근10경기": "6승-4패-0무"
-    },
-    {
-      "순위": 4,
-      "팀명": "두산",
-      "경기": 144,
-      "승": 74,
-      "무": 2,
-      "패": 68,
-      "승률": 0.521,
-      "게임차": "13.0",
-      "연속": "와일드카드",
+      "승": 83,
+      "무": 3,
+      "패": 58,
+      "승률": 0.589,
+      "게임차": "0.0",
+      "연속": "4패",
       "최근10경기": "4승-6패-0무"
     },
     {
-      "순위": 5,
+      "순위": 2,
       "팀명": "KT",
       "경기": 144,
-      "승": 72,
+      "승": 90,
+      "무": 5,
+      "패": 49,
+      "승률": 0.647,
+      "게임차": "-8.0",
+      "연속": "10승",
+      "최근10경기": "9승-0패-1무"
+    },
+    {
+      "순위": 3,
+      "팀명": "KIA",
+      "경기": 144,
+      "승": 79,
       "무": 2,
-      "패": 70,
-      "승률": 0.507,
-      "게임차": "15.0",
-      "연속": "와일드카드",
+      "패": 63,
+      "승률": 0.556,
+      "게임차": "4.5",
+      "연속": "1승",
+      "최근10경기": "7승-3패-0무"
+    },
+    {
+      "순위": 4,
+      "팀명": "LG",
+      "경기": 144,
+      "승": 78,
+      "무": 1,
+      "패": 65,
+      "승률": 0.545,
+      "게임차": "6.0",
+      "연속": "1패",
+      "최근10경기": "3승-7패-0무"
+    },
+    {
+      "순위": 5,
+      "팀명": "두산",
+      "경기": 144,
+      "승": 73,
+      "무": 5,
+      "패": 66,
+      "승률": 0.525,
+      "게임차": "9.0",
+      "연속": "2패",
       "최근10경기": "6승-4패-0무"
     },
     {
       "순위": 6,
       "팀명": "SSG",
       "경기": 144,
-      "승": 72,
-      "무": 2,
-      "패": 70,
-      "승률": 0.507,
-      "게임차": "15.0",
-      "연속": "5위결정전",
-      "최근10경기": "6승-4패-0무"
+      "승": 65,
+      "무": 5,
+      "패": 74,
+      "승률": 0.468,
+      "게임차": "17.0",
+      "연속": "1패",
+      "최근10경기": "7승-3패-0무"
     },
     {
       "순위": 7,
       "팀명": "롯데",
       "경기": 144,
-      "승": 66,
-      "무": 4,
-      "패": 74,
-      "승률": 0.471,
-      "게임차": "20.0",
-      "연속": "정규시즌",
-      "최근10경기": "5승-5패-0무"
+      "승": 64,
+      "무": 3,
+      "패": 77,
+      "승률": 0.454,
+      "게임차": "19.0",
+      "연속": "2승",
+      "최근10경기": "4승-5패-1무"
     },
     {
       "순위": 8,
-      "팀명": "한화",
+      "팀명": "NC",
       "경기": 144,
-      "승": 66,
+      "승": 64,
       "무": 2,
-      "패": 76,
-      "승률": 0.465,
-      "게임차": "21.0",
-      "연속": "정규시즌",
-      "최근10경기": "3승-7패-0무"
+      "패": 78,
+      "승률": 0.451,
+      "게임차": "19.5",
+      "연속": "1승",
+      "최근10경기": "2승-8패-0무"
     },
     {
       "순위": 9,
-      "팀명": "NC",
+      "팀명": "한화",
       "경기": 144,
-      "승": 61,
-      "무": 2,
-      "패": 81,
-      "승률": 0.43,
-      "게임차": "26.0",
-      "연속": "정규시즌",
-      "최근10경기": "4승-6패-0무"
+      "승": 57,
+      "무": 4,
+      "패": 83,
+      "승률": 0.407,
+      "게임차": "25.5",
+      "연속": "2패",
+      "최근10경기": "3승-7패-0무"
     },
     {
       "순위": 10,
       "팀명": "키움",
       "경기": 144,
-      "승": 58,
-      "무": 0,
-      "패": 86,
-      "승률": 0.403,
-      "게임차": "30.0",
-      "연속": "정규시즌",
-      "최근10경기": "3승-7패-0무"
+      "승": 50,
+      "무": 4,
+      "패": 90,
+      "승률": 0.357,
+      "게임차": "32.5",
+      "연속": "1승",
+      "최근10경기": "5승-5패-0무"
     }
   ],
   "sched": [
     {
-      "일시": "한국시리즈 1차전",
+      "일시": "11.03.(화)18:30",
       "원정팀": "삼성",
-      "원정점수": 1,
-      "원정투수/비고": "원태인",
-      "홈팀점수": 5,
-      "홈팀": "KIA",
-      "홈투수/비고": "정해영(승)",
-      "구장": "광주",
+      "원정점수": 7,
+      "원정투수/비고": "최원태패",
+      "홈팀점수": 8,
+      "홈팀": "KT",
+      "홈투수/비고": "승대니엘",
+      "구장": "수원",
+      "중계": "SBS"
+    },
+    {
+      "일시": "11.04.(수)18:30",
+      "원정팀": "삼성",
+      "원정점수": 3,
+      "원정투수/비고": "김태훈승",
+      "홈팀점수": 2,
+      "홈팀": "KT",
+      "홈투수/비고": "패오원석",
+      "구장": "수원",
       "중계": "MBC"
     },
     {
-      "일시": "한국시리즈 2차전",
-      "원정팀": "삼성",
-      "원정점수": 3,
-      "원정투수/비고": "황동재(패)",
-      "홈팀점수": 8,
-      "홈팀": "KIA",
-      "홈투수/비고": "양현종(승)",
-      "구장": "광주",
+      "일시": "11.06.(금)18:30",
+      "원정팀": "KT",
+      "원정점수": 1,
+      "원정투수/비고": "소형준패",
+      "홈팀점수": 5,
+      "홈팀": "삼성",
+      "홈투수/비고": "승후라도",
+      "구장": "대구",
       "중계": "KBS2"
     },
     {
-      "일시": "한국시리즈 3차전",
-      "원정팀": "KIA",
-      "원정점수": 2,
-      "원정투수/비고": "라우어(패)",
-      "홈팀점수": 4,
+      "일시": "11.07.(토)14:00",
+      "원정팀": "KT",
+      "원정점수": 5,
+      "원정투수/비고": "로건패",
+      "홈팀점수": 10,
       "홈팀": "삼성",
-      "홈투수/비고": "레예스(승)",
+      "홈투수/비고": "승이재희",
       "구장": "대구",
       "중계": "SBS"
     },
     {
-      "일시": "한국시리즈 4차전",
-      "원정팀": "KIA",
-      "원정점수": 9,
-      "원정투수/비고": "네일(승)",
-      "홈팀점수": 2,
+      "일시": "11.08.(일)14:00",
+      "원정팀": "KT",
+      "원정점수": 1,
+      "원정투수/비고": "대니엘패",
+      "홈팀점수": 12,
       "홈팀": "삼성",
-      "홈투수/비고": "원태인(패)",
+      "홈투수/비고": "승원태인",
       "구장": "대구",
       "중계": "MBC"
-    },
-    {
-      "일시": "한국시리즈 5차전",
-      "원정팀": "삼성",
-      "원정점수": 5,
-      "원정투수/비고": "이상민",
-      "홈팀점수": 7,
-      "홈팀": "KIA",
-      "홈투수/비고": "박찬호/정해영(승)",
-      "구장": "광주",
-      "중계": "KBS2"
     }
   ],
   "news": [
     {
-      "title": "[프로야구] 'MLB 335홈런' 산타나, KBO·일본 구단 영입설…41세 나이 변수",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5yOUQ3LThmeHhDSnJxTnRodWN3STJkdExXbEpYNDNJVXdxVFp4SU8tZS1NbVk0aGprYVVLSk9yRU5CUlFJcElMRFVBVnpEcnVvMkhac3I5YlNUTkQt?oc=5",
+      "title": "구글 '제미나이', 성수 팝업 이어 내년 KBO 프로야구 중계 공략…2030 세대 접점 확대",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5kWEVXREExalFxYy15WXFlZ2hxaXNHVVFGamZNaEI2NHM2cUlwMzk5LV96elZiTHhtczQwejVvaUpROE5CZjIybld4TnpHaDczd1BPMEVQYVRYX0x1Zm01ZE5vYUdTMENQbUFKcQ?oc=5",
+      "source": "와이드경제",
+      "pubDate": "Thu, 26 Nov 2026"
+    },
+    {
+      "title": "구글, KBO 검색 파트너로… 내년 프로야구 중계서 제미나이 알린다",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBUdVM2azBPdkNiUERLMzU5S0lBMVVkbWgwdVpGUUM1emF6RXg4cUF4U3FLcm9LLWxYRlo4VVVfZjdDRGk1NnJtemxvb0hSa2hDdVp2SW03NzRqVERTQTE3cFVibG8yRldDMHB6WWVxekHSAXRBVV95cUxNZ3ZDRm5FMklpUGZYQ1liNEE5SEZicDRkZG5XWWlZNHIxc3F4ZzJMRHJDTnhJUW1DWEJOXzNSX1J0UlNxWDIwYWVnMEVHR21Ib1ZNRzdZZ0VpLXcyRnZxakFqWVEwd3BCbm1iWGcxM1hmZ280Yw?oc=5",
+      "source": "IT조선",
+      "pubDate": "Wed, 25 Nov 2026"
+    },
+    {
+      "title": "구글의 첫 韓 스포츠 픽은 '프로야구'…내년 AI검색 등판",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZSGNfUWk0bk1Mb3Jmck1fS2g1MVBaTEZGd3FoX2VwUjlnU1YtRlRRSEw1XzF6QzNTZ09haDZQcy1Wb1R4azJZdFNadC1lYS1rTURWd1hR?oc=5",
+      "source": "지디넷코리아",
+      "pubDate": "Wed, 25 Nov 2026"
+    },
+    {
+      "title": "구글에서 찾아보는 韓 프로야구⋯구글, KBO와 맞손",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE53OTNzbTJzZkVESkdpdlJkSFZkU0FCUlcxTFlkblpkejJRWTBaM0hBUVh0RjF5bmNGMFlRSE9TWXdTTDFyTGZBMGZnQQ?oc=5",
+      "source": "아이뉴스24",
+      "pubDate": "Wed, 25 Nov 2026"
+    },
+    {
+      "title": "[프로야구] KBO, 구글과 협력해 AI 검색 접근성 높여",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBGZ01SQl9LWWhuSlJQVFUzZGhSVmZpSGFYVzR6YlpCaVdXaU5NTGthT3FmVTRoOTJYRWZaYVUxa29FcThBUmE1WGlYb2E1RXhqSUpRRkY1YWJYV3FE?oc=5",
       "source": "뉴스핌",
-      "pubDate": "Tue, 24 Nov 2026"
+      "pubDate": "Wed, 25 Nov 2026"
     },
     {
-      "title": "9.81파크서 펼쳐진 프로야구 응원전…디에스엠, KBO와 첫 체험형 협업 마무리",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rbjhUcUZUODNwU0pYUzMxNlNnNmc0VGt4blJieGRWNnliUUZ3TXJ6QnRLMlRCbkdvZGNZak92SmtNSkJEd21UTUpSSGJoS0RBaFQ4UnNYeW9WUdIBWEFVX3lxTFB4OVhoekFJZDdiU2VHaEl5ay1JTFNLZ1Fqa2llaFZPaW1fTGRIejh0X0NKS1p3UnBpaTRDZGhtYm5VVW5RbFhLRFBZUDl0WmhTRFNXQzFabzI?oc=5",
-      "source": "아주경제",
-      "pubDate": "Sun, 22 Nov 2026"
+      "title": "프로야구에 제미나이 더한다…구글, KBO와 검색 파트너십 협약",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tRFdJR1ZSV2U0N2JPX0xqa3UyTnROSV9tRFV2bHJMXzVsMFBhUWp4UHFPT1ZjMjBVWG1kTzNYaDVBeml5OFZQTHY4UHQ5ZElGVGEtMzNJY0hoakZtQ1UtRw?oc=5",
+      "source": "아시아경제",
+      "pubDate": "Wed, 25 Nov 2026"
     },
     {
-      "title": "KBO 허구연 총재, 3연임 성공…2029년까지 프로야구 이끈다",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PTmEtNnh4ZllFQU5tNTJIbkFYSzVHRDdmZnZINjJFZ2FCdjFmZUwxQ2E2WUhCZERlVklwTFhQT1dkUHQyZk8zRTRneG1mdUxkdGU1Q3E0VDgyOUFmUURhLWlia3k1RWc?oc=5",
-      "source": "연합뉴스TV",
-      "pubDate": "Thu, 19 Nov 2026"
-    },
-    {
-      "title": "[2027 프로야구 스토브리그] KBO리그 ‘FA 제도’의 ‘명과 암’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE85MHF6ZkxfQVk4RkQ2QUg5Q0V4ZFY0TUJOOVZXOWV6VFFKNTZGamp0dDNWeDhZLUYzamxMazZMdUItYzZvYmJRTFhFT3llMVhKVFY5ZE5CeVozRDhOQ0p4Zkd4UjVCNEUxV0I0VQ?oc=5",
-      "source": "뉴시안",
-      "pubDate": "Wed, 18 Nov 2026"
-    },
-    {
-      "title": "프로야구 스토브리그 본격화⋯KBO, 오늘(13일) FA 자격 선수 공시 예정",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vOFVIQWFxczNzcE8zcVM2SVlNNnMtNkRZSXZPTW1kYjJoUmVNNUdxU0tHenNjYkpKUmlkTHhKOF8tVVNXa2NLRjVtd3Uxb1FqZ0k3dg?oc=5",
-      "source": "이투데이",
-      "pubDate": "Fri, 13 Nov 2026"
-    },
-    {
-      "title": "허구연 KBO 총재, 만장일치로 3연임 확정…2029년까지 한국 프로야구 이끈다",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAyRmJsSmYxMEdDXzlGMjlvRElNWHJjc1JDd0I3SGNSSG1KOWF6RnkybWlxSjRaT3pyODdDNjdEM2ZUaTlBS0VvbC00MGkxS1JVYUlwenA5aFdHcHkzNHBPUFdkY29EUQ?oc=5",
-      "source": "TSN KOREA",
-      "pubDate": "Thu, 19 Nov 2026"
-    },
-    {
-      "title": "생생한 KBO 리그 현장|[사진]마지막 잠실야구장에 모인 프로야구 레전드 선수들",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbzlMUTJiSW00MGVEMU1SbTdLUFpDdElRbnJlMUJnTE82WUhGOE05TUQtdXRwS0R4NUlYY3hLaHBJVnlqcExDamlOcDNuZnFSVm1PVi1EVlNXM29LUjBCa1EwVUNvQ0h6cnliSjM1dDhVUDlpT1F3Nm04OV9ma3dzLUo5dXQ?oc=5",
-      "source": "ZUM 뉴스",
-      "pubDate": "Sat, 14 Nov 2026"
-    },
-    {
-      "title": "kt 아시아쿼터 스기모토, 홀드왕 타이틀 품고 소프트뱅크 입단...KBO리그 출신이 신인드래프트 통해 일본 프로야구 진출한 첫 사례",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6cU5aVnhER0d5ZGF5ZGFQMkhWM2VuekFtTXdOekdSenJ2Wl8xMFlUd196ajNTazN0X2VtVUhNVkI1MUJabmNQV21nQ1pYTXRveGVXZmxBbDRSSDNtcUxtVENhanhqdmhxaFhXMg?oc=5",
+      "title": "구글-KBO 손맞잡고 프로야구 팬 경험 더 다채롭게…",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GN0NGbHVlMTkyeDhxMmlOb0xIMldYNC1vS0tOTjQ1bGZvNlA4YmVJVFpmaXZGLXhnc0hhTW13ZnhwYzJsUDNtLWdXd3VkdTM3REhNVG5yZHZtSkZhLW1wX3pkQXRoaExBZnJoQTBqbm5rbUVhQUc0NQ?oc=5",
       "source": "서울신문",
-      "pubDate": "Thu, 19 Nov 2026"
+      "pubDate": "Wed, 25 Nov 2026"
     },
     {
-      "title": "‘프로야구 슈퍼스타’ 김도영, 일구대상-KBO 수비상 ‘겹경사’",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFA4b3JpNHVWelZ4M0tjYmt4VXhOd2ZPY2htT2ZrVEFoN2JyZVA2YnlGRUtJejMtc1lTRkhmeVMxOHdLaF9rV3c?oc=5",
-      "source": "매일경제",
-      "pubDate": "Wed, 18 Nov 2026"
+      "title": "프로야구 생중계에 AI '제미나이' 뜬다…구글, KBO와 맞손",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtcjg3NExoYjNBa2ljWlpQdzU5QkI1WHdNX2lSblg4RjQ3QnRfekhENGIyMUVNOHh3ZEc2Z1JjcW9QSnhOUFdHYldsM3RNeVpoUVQwcVhkaTRCWUZYQURQY9IBeEFVX3lxTFBfU1hPNGtXMWV0ZDNaZ2I2RG94LVhETjg0TVBjZW1xSVU1enljemJ6WUVleHRUWk1IajNQQklJSnI1aUhqOVNLZnMzeXJsOS1nN1lQMXJfWWdtZFFBNFJCSXFvdzJRX1ZSTE1DRUI2V2dFOHhiNG5vWA?oc=5",
+      "source": "뉴시스",
+      "pubDate": "Wed, 25 Nov 2026"
     },
     {
-      "title": "흥행 태풍 2026 프로야구, 폭염·AG 뚫고 역대 최다관중 신기록",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rZXZKQV9lT3A0enQ3d0UtY0RQWk5YSk5NX2lGYnVlWlR1LTNwSnRydTFQQlgyVGUxRzhTWll3cWhRZEoxcldJRzYyRnZBNlBHRE9Gaks3SFF0YzTSAWBBVV95cUxNbXEtb01aODdjaG5mN0tBUl9nb1ZYTDVrYk5HX01iNTNNckdPdUxvN3EzcnR3ZnNkb0NmWGI0eUU3bl9GR19DRGZ0THRHdnZCN1I2b19fNUI1UlBtMjNMbGs?oc=5",
+      "title": "“오늘 선발 누구야?” 구글 AI로 찾는다… KBO, 내년 시즌 검색 협력",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EbHBTbERVXzB5TTFqb1AwQ2h0QWFQYmFzMkhoQzlUd2U4cS0wTVpZT1Z6a05qbmlaTnlHUTliOUMxTWJqQ3loZ0kzaGp6SXpzUW90NEVLZEw1N2hTaExHM0RoVzI?oc=5",
+      "source": "디지털데일리",
+      "pubDate": "Wed, 25 Nov 2026"
+    },
+    {
+      "title": "제미나이로 야구 경기 맥락 한눈에…구글·KBO, 검색 파트너십",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZV83bF9vN0F1TzhFaU9EOGVDZnhYSG1xanFKWFpzRzFiYTBhdEt1bmd1Q2hmZTlHQWZNVGtuQjdhdUVvY0VCcFg2S3NCQldKX2FpbWlMOFBWcU3SAWBBVV95cUxQT1piVFNFdDBjVGVlSDZsNXAyMzJSWEdfSDRROXlHOWJod3JLeWtkOWxHUjVVXzdHS0VEdUwxMEZjS195d2tpYU5VY2Y3WjlaOGd0NXNudDZsbTBEbHNLcnQ?oc=5",
       "source": "연합뉴스",
-      "pubDate": "Mon, 05 Oct 2026"
+      "pubDate": "Wed, 25 Nov 2026"
     },
     {
-      "title": "프로야구 ’쩐의 전쟁’ 시작됐다…KBO, FA 승인 선수 22명 명단 발표",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zdUIzemY5ejB5MlpwZTduVzEtOUhpd0VDQmdmN1RvWVc3SmpaUEdZU3pzSzhXTDgydlBVV05CNjk1MnI1VVF3OHFVRHpIRmVCTjNmdDRRQzBHbFdkUFBmdXZkZV9LdXM?oc=5",
-      "source": "연합뉴스TV",
-      "pubDate": "Mon, 16 Nov 2026"
+      "title": "구글, KBO 리그 공식 파트너십 체결…검색·제미나이로 야구 팬 경험 강화",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jaGxiR2JKSU5TTmE4VDhoTC1GbWdxZlMzM1Q2Zlp5OUVyQmdkMndsd0NQV3Z1U0JOLTFuaTUzSUZDZzhyY2Z5Q3hTQ0FvQ3M?oc=5",
+      "source": "와우테일",
+      "pubDate": "Wed, 25 Nov 2026"
     },
     {
-      "title": "KBO, 프로야구 한화 내야수 노시환 MLB에 포스팅 요청",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15RF93M25ybmgwcm9xQmJFNmRxS0dKbjU4NUZpTmNyWHd2X3k3TVlwN3JzTlpCbE9TMHVSbGxDSVVGaS1ucjAwVVBSNjY4dzV4RGY2UThhazg1RUHSAWBBVV95cUxQeEZDRjlHMzF2dGRxV0ZzU29lYWdEVkVWa0trdzNocV9JTmJCelRYTE03SF81bmNlZ29VcDJ4aFRvdWtxSTNBQ1dQRWQyeUJ1cWpGU2x5Wkw0bHF2MElJYy0?oc=5",
-      "source": "연합뉴스",
-      "pubDate": "Sat, 31 Oct 2026"
+      "title": "'3년 연속 1000만 관중' KBO, 구글과 손잡다...\"야구팬들에 새로운 정보 탐색 경험 가치 제공\" - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE93N2VmZ3FJSjFIRS1ONWwzaUh3X2NZRXpSX2pTQjVzRWVXZmpQamlEMjNPeFgzcFN2RDYzZ3RnZjVrV2NnNEVZZDQ1UXVNaWpabGJiWGE4NmpFTG1RaDdyYmpYYWZyRmZHeDBvamhUb9IBb0FVX3lxTE93N2VmZ3FJSjFIRS1ONWwzaUh3X2NZRXpSX2pTQjVzRWVXZmpQamlEMjNPeFgzcFN2RDYzZ3RnZjVrV2NnNEVZZDQ1UXVNaWpabGJiWGE4NmpFTG1RaDdyYmpYYWZyRmZHeDBvamhUbw?oc=5",
+      "source": "머니투데이",
+      "pubDate": "Wed, 25 Nov 2026"
     }
   ],
   "batters": {
